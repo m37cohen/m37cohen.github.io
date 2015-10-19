@@ -8,6 +8,7 @@
 body {
 	background: url(intro-bg.jpg) no-repeat center;
 }
+<<<<<<< HEAD:STYLE-2.css
 
 h1 {
 	font-size: 90px;
@@ -16,3 +17,5 @@ h1 {
 h3 {
 	font-size: 30px;
 }
+=======
+>>>>>>> origin/master:style-2.css
