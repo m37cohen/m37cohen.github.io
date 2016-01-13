@@ -6757,4 +6757,11 @@ button.close {
     display: none !important;
   }
 }
+
+.btn:hover
+{
+background-image:none;
+background-color:000000;
+}
+
 /*# sourceMappingURL=bootstrap.css.map */
