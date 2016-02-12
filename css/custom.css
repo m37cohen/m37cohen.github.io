@@ -1,3 +1,18 @@
-.our-cause {
-  background-color: black;
+.main-header {
+	font-size: 85px;
+}
+
+.quotes {
+	background-color: #481d70;
+}
+
+.p-quotes-one {
+	color: white;
+	font-size: 18px;
+}
+
+.p-quotes-two {
+	color: white;
+	margin-top: 50px;
+    margin-bottom: -10px;
 }
