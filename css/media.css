@@ -94,7 +94,7 @@
    .feature-block i { position: relative; margin-bottom: 20px; }
    .feature-block { padding-left: 0; }
    .feature .heading:after { margin: 0 auto; }
-   .feature img { position: relative; }
+   .feature img { position: relative; width: 150px;}
    .download img { display: none; }
    .feature .first, .feature .third { top: 20px; }
    .feature .third { left: 40px; }
@@ -122,8 +122,8 @@
    .top-bar .logo { margin-left: 0; }
    .navbar-toggle { right: 5px; }
    .swiper-container { width: 230px; }
-   .arrow-left { left: 0; top: 30%;}
-   .arrow-right { right: 0; top: 30%;}
+   .arrow-left { left: 0; top: 32%;}
+   .arrow-right { right: 0; top: 32%;}
    h2 { font-size: 24px; }
    .subheadline { font-size: 16px; line-height: 24px; }
    #intro h1 { font-size: 24px; }
