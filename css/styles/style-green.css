@@ -489,6 +489,7 @@ header {
 }
 
 .nav li a, .nav li:first-child a.active {
+    text-transform: uppercase;
     color: #fff;
     display: inline-block;
     padding: 6px 10px;
