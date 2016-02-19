@@ -122,8 +122,8 @@
    .top-bar .logo { margin-left: 0; }
    .navbar-toggle { right: 5px; }
    .swiper-container { width: 230px; }
-   .arrow-left { left: 0; }
-   .arrow-right { right: 0; }
+   .arrow-left { left: 0; top: 30%;}
+   .arrow-right { right: 0; top: 30%;}
    h2 { font-size: 24px; }
    .subheadline { font-size: 16px; line-height: 24px; }
    #intro h1 { font-size: 24px; }
