@@ -558,7 +558,7 @@ header {
 /* Slider */
 .swiper-container {
     width: 960px;
-    height: 600px;
+    height: 480px;
     margin-bottom: 30px;
     position: relative;
     z-index: 4;
