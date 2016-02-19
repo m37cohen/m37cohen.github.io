@@ -489,6 +489,7 @@ header {
 }
 
 .nav li a, .nav li:first-child a.active {
+    font-size: initial;
     text-transform: uppercase;
     color: #fff;
     display: inline-block;
@@ -717,7 +718,7 @@ header {
 }
 
 .feature img {
-    position: absolute;
+    position: inherit;
 }
 
 .feature .first {

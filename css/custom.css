@@ -1,3 +1,7 @@
+.col-md-4 {
+	text-align: center;
+}
+
 .app-screenshot {
 	width: 50%;
     margin-left: auto;
@@ -6,4 +10,9 @@
 
 .how-it-works {
 	font-size: 28px;
+}
+
+.icon-howitworks {
+	width: 150px;
+	margin-bottom: 15px
 }
