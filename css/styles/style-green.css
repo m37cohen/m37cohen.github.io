@@ -935,8 +935,8 @@ header {
 .testis img {
     margin: 0 auto;
     margin-bottom: 10px;
-    border: 3px solid #7cb28a;
-    width: 75px;
+    border: 0px solid #7cb28a;
+    width: 200px;
 }
 
 blockquote {
