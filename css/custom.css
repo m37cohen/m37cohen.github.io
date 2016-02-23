@@ -1,5 +1,17 @@
+.container-theapp {
+	margin-top: 70px;
+	margin-bottom: 60px;
+}
+
+.row-theapp {
+	padding-right:50px;
+	padding-left: 50px;
+}
+
 .col-md-4 {
 	text-align: center;
+	padding-left: 40px;
+	padding-right: 40px;
 }
 
 .app-screenshot {
@@ -13,6 +25,6 @@
 }
 
 .icon-howitworks {
-	width: 150px;
+	width: 130px;
 	margin-bottom: 15px
 }

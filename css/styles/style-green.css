@@ -436,7 +436,7 @@ header {
     left: 0;
     width: 100%;
     z-index: 999;
-    background: #7cb28a;
+    background: black;
     padding: 0 0 15px;
 }
 
@@ -500,21 +500,21 @@ header {
 }
 
 .nav li a:hover, .nav li a.active, .nav li:first-child a.active:hover {
-    background: #fff;
+    background: transparent;
     text-shadow: inherit;
     border-radius: 5px;
-    color: #7cb28a;
+    color: #ff0000;
 }
 
 .nav .download-btn a {
     background: #fff;
-    color: #7cb28a;
+    color: black;
     text-shadow: inherit;
     border-radius: 5px;
 }
 
 .nav .download-btn a:hover {
-    background: #7cb28a;
+    background: grey;
     color: #fff;
 }
 
@@ -1154,9 +1154,8 @@ cite span {
 .contact .submit {
     margin: 0;
     width: 178px;
-    border-color: #7cb28a;
-    float: right;
-    background: #7cb28a;
+    border-color: black;
+    background: black;
     transition: all 0.2s;
     -moz-transition: all 0.2s;
     -webkit-transition: all 0.2s;
