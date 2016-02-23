@@ -1129,7 +1129,7 @@ cite span {
 }
 
 .contact input:focus, textarea:focus {
-    border-color: #7cb28a;
+    border-color: black;
     outline: 0;
     transition: all 0.2s;
     -moz-transition: all 0.2s;
