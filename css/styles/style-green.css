@@ -206,13 +206,6 @@ h2 {
     text-align: center;
 }
 
-.heading:after {
-    content: "";
-    display: block;
-    width: 50px;
-    height: 1px;
-    background: #ccc;
-}
 
 .heading.center:after {
     margin: 0 auto;
@@ -326,7 +319,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span {
-    background: #7cb28a;
+    background: #ff0000;
 }
 
 section {
@@ -1164,8 +1157,8 @@ cite span {
 }
 
 .contact .submit:hover {
-    background: #fff;
-    color: #7cb28a;
+    background: grey;
+    color: #fff;
 }
 
 .contact input.error {
@@ -1212,16 +1205,17 @@ cite span {
 }
 
 .socials a {
-    width: 35px;
-    height: 35px;
+    width: 50px;
+    height: 50px;
     display: block;
-    background: #7cb28a;
+    background: #ff0000;
     color: #fff;
     text-align: center;
     padding-top: 5px;
-    font-size: 18px;
+    padding-left: 2px;
+    font-size: 30px;
     border-radius: 50%;
-    border: 1px solid #7cb28a;
+    border: 1px solid #ff0000;
     transition: all 0.2s;
     -moz-transition: all 0.2s;
     -webkit-transition: all 0.2s;
@@ -1231,7 +1225,7 @@ cite span {
 
 .socials a:hover {
     background: #fff;
-    color: #7cb28a;
+    color: #ff0000;
 }
 
 
@@ -1258,10 +1252,10 @@ footer p {
     margin-left: -20px;
     margin-top: -20px;
     background: #fff;
-    border: 1px solid #7cb28a;
+    border: 1px solid grey;
     border-radius: 50%;
     font-size: 18px;
-    color: #7cb28a;
+    color: grey;
     display: inline-block;
     text-align: center;
     padding-top: 6px;
@@ -1273,7 +1267,7 @@ footer p {
 }
 
 .scrollup:hover {
-    background: #7cb28a;
+    background: #ff0000;
     color: #fff;
 }
 
