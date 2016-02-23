@@ -569,10 +569,10 @@ header {
     top: 50%;
     margin-top: -60px;
     background: #fff;
-    border: 1px solid #7cb28a;
+    border: 1px solid black;
     border-radius: 50%;
     font-size: 18px;
-    color: #7cb28a;
+    color: black;
     display: inline-block;
     text-align: center;
     padding-top: 6px;
@@ -585,7 +585,7 @@ header {
 }
 
 .arrow-left:hover, .arrow-right:hover {
-    background: #7cb28a;
+    background: black;
     color: #fff;
 }
 
