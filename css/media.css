@@ -46,7 +46,7 @@
    header { height: 600px; }
    .headline p { padding: 0 20px; }
    .top-bar.slidedown { display: none; }
-   .top-bar { position: fixed; top: 0; left: 0; width: 100%; z-index: 999; padding: 0 0 10px; margin: 0; }
+   .top-bar { position: fixed; top: 0; left: 0; width: 100%; z-index: 999; padding: 0 0 10px; margin: 0; background-color: black; }
    .top-bar .nav { padding-top: 5px; position: absolute; width: 100%; left: 0; float: none; }
    .top-bar .logo { margin-top: 0px; margin-left: 10px; }
    .top-bar .logo a { font-size: 36px; }

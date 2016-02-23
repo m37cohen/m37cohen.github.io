@@ -309,12 +309,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 }
 
 .owl-theme .owl-controls .owl-buttons div {
-    color: #7cb28a;
-    border: 1px solid #7cb28a;
+    color: black;
+    border: 1px solid black;
 }
 
 .owl-theme .owl-controls.clickable .owl-buttons div:hover {
-    background: #7cb28a;
+    background: black;
+    color: #fff;
 }
 
 .owl-theme .owl-controls .owl-page.active span,
@@ -1267,7 +1268,7 @@ footer p {
 }
 
 .scrollup:hover {
-    background: #ff0000;
+    background: black;
     color: #fff;
 }
 
