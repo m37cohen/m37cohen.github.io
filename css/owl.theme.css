@@ -26,7 +26,7 @@
 	filter: Alpha(Opacity=100);/*IE7 fix*/
 	opacity: 1;
 	position: absolute;
-	top: 50%;
+	top: 35%;
    margin-top: -20px;
    transition: all 0.2s; -moz-transition: all 0.2s; -webkit-transition: all 0.2s; -o-transition: all 0.2s; -ms-transition: all 0.2s;
 }
