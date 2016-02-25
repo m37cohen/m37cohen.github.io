@@ -1,3 +1,19 @@
+.dropdown {
+	text-transform: uppercase;
+	color: white;
+	padding: 4px;
+}
+
+.dropdown:hover {
+	color: #ff0000;
+	cursor: pointer;
+}
+
+.dropdown-menu {
+	background: transparent;
+	padding: 6px 0;
+}
+
 .container-theapp {
 	margin-top: 70px;
 	margin-bottom: 60px;

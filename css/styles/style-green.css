@@ -471,7 +471,7 @@ header {
 
 .nav li {
     display: inline-block;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 300;
 }
 
@@ -1283,7 +1283,7 @@ footer p {
     }
 
     .navbar-collapse {
-        background: #7cb28a;
+        background: black;
     }
 
     .nav .download-btn a:hover, .nav .download-btn a.active {
