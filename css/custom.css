@@ -17,6 +17,12 @@
     text-align: center;
 }
 
+.about-img {
+	max-width:100%;
+	height:auto;
+	width:600px;
+}
+
 .about-icons {
 	max-width: 100%;
 	height: auto;
