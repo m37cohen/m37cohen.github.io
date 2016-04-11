@@ -465,6 +465,13 @@
 			box-shadow: 0 0 0 10px #fff, 0 0 0 11px rgba(144, 144, 144, 0.25);
 }
 
+		.icon.footer {
+			text-decoration: none;
+			border-bottom: none;
+			position: relative;
+			color: #d8d8d8;
+			font-size: 1.5em;
+		}
 /* Image */
 
 	.image {
@@ -933,7 +940,7 @@
 			height: inherit;
 			line-height: inherit;
 			position: absolute;
-			right: 1.25em;
+			right: 2em;
 			top: 0;
 			vertical-align: middle;
 		}
@@ -1110,7 +1117,7 @@
 .navbar-logo {
 	width: 250px;
 	margin-top: 2px;
-	margin-left: 10px;
+	margin-left: 1em;
 }
 
 .h2-home {
@@ -1144,7 +1151,6 @@
 	width: 88%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 20px;
 }
 
 
