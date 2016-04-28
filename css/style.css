@@ -434,12 +434,9 @@
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			background-color: #fff; /* fallback */
-  			background-color: rgba(255, 255, 255, 0.5);
-  			border-color: #fff; /* fallback */
-  			border-color: rgba(255, 255, 255, 0.5);
-  			transition: background-color 0.3s ease-in,
-            border-color 0.3s ease-in;
+			background-color: white;
+			color: black;
+			border-color: transparent;
 		}
 
 		input[type="submit"].alt,
@@ -559,13 +556,13 @@
 
 		.wrapper.style6 {
 			padding: 18em 0em 12em 0em;
-			background: #222222 url(../images/banner-discoveruncover.jpg) no-repeat;
+			background: #222222 url(../images/banner1.png) no-repeat;
 			background-size: cover;
 		}
 
 		.wrapper.style6-scroll {
 			padding: 0em 0em 0em 0em;
-			background: #222222 url(../images/banner-discoveruncover.jpg) no-repeat;
+			background: #222222 url(../images/banner1.png) no-repeat;
 			background-size: cover;
 		}
 
@@ -577,13 +574,13 @@
 
 		.wrapper.style7-scroll {
 			padding: 0em 0em 0em 0em;
-			background: #222222 url(../images/banner-weeklymixes.jpg) no-repeat;
+			background: #222222 url(../images/banner2-2.png) no-repeat;
 			background-size: cover;
 		}
 
 		.wrapper.style8 {
 			padding: 18em 0em 12em 0em;
-			background: #222222 url(../images/banner-news.png) no-repeat;
+			background: #222222 url(../images/banner2-2.png) no-repeat;
 			background-size: cover;
 		}
 
@@ -869,6 +866,20 @@
 		margin-top: -25px;
 	}
 
+	.h2-track {
+		float: none;
+		text-align: center;
+		color: black;
+		font-size: 36px;
+		letter-spacing: 12px;
+	}
+
+	.h3-track {
+		float: none;
+		text-align: center;
+		font-size: 18px;
+	}
+
 /* Discover / Uncover Section */
 	
 	.discover-uncover {
@@ -948,7 +959,6 @@
 	  visibility: visible;
 	  opacity: 1;
 	}
-
 
 
 
