@@ -266,7 +266,7 @@ a.goto-btn:hover {
 }
 
 .ourteam-body h1 {
-    font-weight: 500;
+    font-weight: 300;
     text-align: center;
     padding-bottom: 8px;
 }
@@ -620,6 +620,29 @@ ul.cat li a.active {
     transform: translateX(0%)  translateY(0%);
     opacity: 1;
 }
+
+/* Portfolio or works blocks - CUSTOM BOXES */
+
+.box .hover-card {
+    -webkit-transform: translateX(400%) translateY(0%);
+    transform: translateX(400%)  translateY(0%);
+    opacity: 0;
+    transition: all 0.5s;
+}
+.box:hover .hover-card {
+    -webkit-transform: translateX(0%) translateY(0%);
+    transform: translateX(0%)  translateY(0%);
+    opacity: 1;
+}
+
+.hover-card {
+    background-color: rgba(100, 100, 100, 0.5);
+    color: white;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+
 /* Style 2 - Not Fullwidth */
 #itemsWorkThree .box,
 #itemsWorkTwo .box { margin-bottom: 30px }
@@ -840,13 +863,13 @@ ul.cat li a.active {
     border-color: #ffcc33;
 }
 .color {
-    background-color: #ffcc33;
-    border-color: #ffcc33;
+    background-color: #5098e9;
+    border-color: #5098e9;
 }
 .color:focus,
 .color:hover {
     border-color: #333333;
-    background-color: #ffcc33;
+    background-color: #123e6c;
 }
 /* Blog Section */
 #tf-blog,
@@ -894,8 +917,15 @@ ul.metas li a { color: #e5b112 }
 }
 .contact-detail {
     text-align: center;
-    margin: 60px 0;
+    margin: 40px 0;
+    line-height: 8px;
 }
+
+.contact-detail h2 {
+    color: #123e6c;
+    font-weight: 400;
+}
+
 .contact-detail i.fa {
     text-align: center;
     font-size: 30px;
@@ -912,7 +942,7 @@ ul.metas li a { color: #e5b112 }
 }
 .contact-detail:hover i.fa { background-color: #333333 }
 form#contact-form { padding: 40px 0 }
-.contact form#contact-form {padding: 0}
+.contact form#contact-form {padding: 0em 2em}
 .form-control:focus {
     border-color: inherit;
     outline: 0;
@@ -1115,16 +1145,18 @@ ul.meta-tags li:last-child:after { content: ' ' }
     background-attachment: fixed;
     background-repeat: no-repeat;
     color: #cfcfcf;
-    padding-top: 8em;
+    padding-top: 2em;
     padding-bottom: ;
 }
 
 #tf-project h1 {
     color: #fff;
-    font-size: 60px;
+    font-size: 74px;
     float: right;
-    margin-right: 1em;
+    margin-right: 60px;
     margin-top: 2em;
+    font-weight: 700;
+    margin-bottom: -14px;
 }
 
 .project {
@@ -1178,16 +1210,18 @@ ul.meta-tags li:last-child:after { content: ' ' }
     background-attachment: fixed;
     background-repeat: no-repeat;
     color: #cfcfcf;
-    padding-top: 8em;
+    padding-top: 2em;
     padding-bottom: ;
 }
 
 #tf-competition h1 {
     color: #fff;
-    font-size: 60px;
+    font-size: 74px;
     float: right;
-    margin-right: 1em;
+    margin-right: 60px;
     margin-top: 2em;
+    font-weight: 700;
+    margin-bottom: -14px;
 }
 
 #tf-competition2 {
@@ -1235,3 +1269,19 @@ h4.scoring-heading {
     color: #333;
     line-height: 20px;
 }
+
+/* News Section */
+.media.post {
+    border-bottom-style: solid;
+    border-bottom-color: #fff;
+    border-bottom-width: 2px;
+}
+
+.media.post:hover {
+    border-bottom-style: solid;
+    border-bottom-color: #5098e9;
+    border-bottom-width: 2px;
+}
+
+/* Contact Section */
+
