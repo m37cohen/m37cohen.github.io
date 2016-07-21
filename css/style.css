@@ -104,14 +104,14 @@ a:focus {
 #tf-header .breadcrumb > li a { color: #ffffff }
 /* Home Style */
 #tf-home {
-    background: url(../img/header.jpg);
-    background-size: cover;
+    background: url(../img/bannertest.png);
+    background-size: contain;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     color: #cfcfcf;
-    padding-top: 10em;
-    padding-bottom: 10em;
+    padding-top: ;
+    padding-bottom: 40em;
 }
 .container-header {
     width: 100%;
@@ -999,6 +999,10 @@ ul.social li a i:hover { border-color: #ffffff }
 .footer-logo {
     height: 40px;
     padding-right: 2em;
+}
+
+.footer-copyright {
+    padding-top: 2em;
 }
 /* Blog Page */
 .blog .media.post {
