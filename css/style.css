@@ -16,16 +16,30 @@ html {
     .container { width: 90% }
 }
 h1 {
-    font-weight: 900;
     text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 8px;
 }
-h1 small { text-transform: lowercase }
+h1 small {
+    text-transform: lowercase; 
+}
 h2 {
     line-height: 24px;
     font-weight: 300;
 }
-h5 { font-size: 16px }
-p { font-size: 14px }
+h3 {
+
+}
+h4 {
+    line-height: 24px;
+}
+h5 {
+    font-size: 16px;
+}
+p {
+    font-size: 15px;
+}
 a {
     color: inherit;
     transition: all 0.5s;
@@ -104,14 +118,14 @@ a:focus {
 #tf-header .breadcrumb > li a { color: #ffffff }
 /* Home Style */
 #tf-home {
-    background: url(../img/bannertest.png);
+    background-color: grey;
     background-size: contain;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     color: #cfcfcf;
     padding-top: ;
-    padding-bottom: 40em;
+    padding-bottom: 45em;
 }
 .container-header {
     width: 100%;
@@ -166,48 +180,36 @@ a.goto-btn:hover {
     margin: 0 auto;
     margin-bottom: 30px;
 }
+
 /* Mission Section */
-#tf-mission { padding: 60px 0 }
-.section-header {
-    padding: 40px 0;
+#tf-mission { 
+    padding: 60px 0;
+}
+.our-mission-section {
+    margin-left: 10em;
+    margin-right: 10em;
+    padding-top: 4em;
+    padding-bottom: 4em;
     text-align: center;
 }
-.section-header h2 { 
-    text-transform: uppercase;
-    margin-bottom: 20px;
-}
-.section-header h5 { letter-spacing: 1px }
-.fancy {
-    line-height: 0.5;
-    text-align: center;
-    margin-bottom: 40px;
-    margin-top: 20px;
-}
-.fancy span {
-    display: inline-block;
-    position: relative;
-    border-bottom: 1px solid #f1f1f1;
-    width: 600px;
-    max-width: 100%;
+
+/* Page Break - Banner Concept */
+.banner-concept {
+    width: 100%;
 }
 
 /* Our Concept Section */
+#tf-concept {
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
 .concept-home-img {
     max-width: 100%;
 }
 
 .concept-body {
-    margin-left: 8em;
-    margin-right: 8em;
-    margin-top: 4em;
-    margin-bottom: 6.8em;
-}
-
-.concept-body h1 {
-    text-align: center;
-    font-weight: 300;
-    text-align: center;
-    padding-bottom: 8px;
+    margin-left: 4em;
+    margin-right: 4em;
 }
 
 .concept-body .btn-sm {
@@ -218,57 +220,30 @@ a.goto-btn:hover {
     font-size: 13px;
 }
 
-.concept-stackable {
+.concept-icon-home {
+    width: 72px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+/* Page Break - Team Photo */
+.team-photo-home {
     width: 100%;
-    padding: 50px;
-    background-color: royalblue;
-}
-
-.concept-stackable:hover {
-    padding: 35px;
-}
-
-.concept-sustainable {
-    width: 100%;
-    padding: 50px;
-    background-color: cornflowerblue;
-}
-
-.concept-sustainable:hover {
-    padding: 35px;
-}
-
-.concept-affordable {
-    width: 100%;
-    padding: 50px;
-    background-color: seagreen;
-}
-
-.concept-affordable:hover {
-    padding: 35px;
-}
-
-.concept-livable {
-    width: 100%;
-    padding: 50px;
-    background-color: lightsalmon;
-}
-
-.concept-livable:hover {
-    padding: 35px;
 }
 
 /* Our Team Section */
-.ourteam-body {
-    margin-left: 8em;
-    margin-right: 8em;
-    margin-top: 10em;
+#tf-ourteam {
+    padding-bottom: 8em;
 }
-
-.ourteam-body h1 {
-    font-weight: 300;
-    text-align: center;
-    padding-bottom: 8px;
+.ourteam-body {
+    background: #fff;
+    padding-top: 2em;
+    padding-left: 4em;
+    padding-right: 4em;
 }
 
 .ourteam-body .btn-sm {
@@ -287,7 +262,7 @@ a.goto-btn:hover {
 }
 
 .supporters-logo {
-    width: 50%;
+    width: 150px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -631,13 +606,14 @@ ul.cat li a.active {
     -webkit-transform: translateX(0%) translateY(0%);
     transform: translateX(0%)  translateY(0%);
     opacity: 1;
+    border: 2px solid #5098e9;
 }
 
 .hover-card {
     background-color: rgba(100, 100, 100, 0.5);
     color: white;
-    padding-top: 4em;
-    padding-bottom: 4em;
+    padding-top: 29%;
+    padding-bottom: 29%;
 }
 
 
@@ -1146,7 +1122,8 @@ ul.meta-tags li:last-child:after { content: ' ' }
 /* Project Page */
 
 #tf-project {
-    background: url(http://imgix.scout.com/152/1526175.jpg);
+    background: url('../img/banner/team-banner.png');
+    width: 100%;
     background-size: cover;
     background-position: 0em -25em;
     background-attachment: fixed;
@@ -1297,3 +1274,12 @@ h4.scoring-heading {
 
 /* Contact Section */
 
+/* Buttons */
+.btn-primary {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 0;
+    margin-top: 2em;
+}
