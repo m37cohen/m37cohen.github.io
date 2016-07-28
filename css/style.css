@@ -35,10 +35,14 @@ h4 {
     line-height: 24px;
 }
 h5 {
-    font-size: 16px;
+    font-family: 'Francois One', sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.6px;
+    color: #888;
 }
 p {
     font-size: 15px;
+    line-height: 22px;
 }
 a {
     color: inherit;
@@ -227,7 +231,11 @@ a.goto-btn:hover {
     margin-right: auto;
     display: block;
     margin-top: 2em;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
+}
+
+.concept-title-home {
+    text-align: center;
 }
 
 /* Page Break - Team Photo */
@@ -253,11 +261,25 @@ a.goto-btn:hover {
     margin-top: 2em;
     font-size: 13px;
 }
-
+/* The Competition Section */
+#tf-competition {
+    background: #f3f3f3;
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
+.competition-logo-home {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 280px;
+    margin-top: 3em;
+}
 /* Supporters Section */
 #tf-supporters {
     padding-left: 6em;
     padding-right: 6em;
+    padding-top: 6em;
     padding-bottom: 6em;
 }
 
@@ -267,6 +289,16 @@ a.goto-btn:hover {
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+
+.row .sponsors-home {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.get-involved-home {
+    text-align: center;
+    padding-left: 8em;
+    padding-right: 8em;
 }
 
 /* service lists */
@@ -454,7 +486,6 @@ ul.social li a.fa:hover { background-color: #333333 }
     bottom: 0;
     width: 100%;
     height: 25%;
-    padding: 20px;
     color: #ffffff;
     transition: all 0.8s;
     -webkit-transition: all 08s;
@@ -606,14 +637,18 @@ ul.cat li a.active {
     -webkit-transform: translateX(0%) translateY(0%);
     transform: translateX(0%)  translateY(0%);
     opacity: 1;
-    border: 2px solid #5098e9;
+    border-bottom: 8px solid #5098e9;
 }
 
 .hover-card {
-    background-color: rgba(100, 100, 100, 0.5);
     color: white;
-    padding-top: 29%;
-    padding-bottom: 29%;
+    margin-top: 140px;
+}
+
+.hover-card p {
+    margin-bottom: 6px;
+    font-size: 16px;
+    letter-spacing: -0.4px;
 }
 
 
@@ -973,12 +1008,12 @@ ul.social li a i {
 ul.social li a i:hover { border-color: #ffffff }
 
 .footer-logo {
-    height: 40px;
+    height: 38px;
     padding-right: 2em;
 }
 
 .footer-copyright {
-    padding-top: 2em;
+    margin-bottom: 1.2em;
 }
 /* Blog Page */
 .blog .media.post {
@@ -1187,8 +1222,8 @@ ul.meta-tags li:last-child:after { content: ' ' }
 }
 
 /* Competition Page */
-#tf-competition {
-    background: url(http://www.solardecathlon.gov/blog/wp-content/uploads/images/Plan-Your-Visit-Photo-1024x607.jpg);
+#banner-competition {
+    background: url('../img/banner/banner-competition.jpg');
     background-size: cover;
     background-position: 0em -20em;
     background-attachment: fixed;
@@ -1198,21 +1233,72 @@ ul.meta-tags li:last-child:after { content: ' ' }
     padding-bottom: ;
 }
 
-#tf-competition h1 {
+#banner-competition h1 {
     color: #fff;
     font-size: 74px;
     float: right;
     margin-right: 60px;
     margin-top: 2em;
     font-weight: 700;
-    margin-bottom: -14px;
+    margin-bottom: -20px;
+}
+#competition-info1 {
+    padding-top: 2em;
+    padding-bottom: 6em;
+}
+.competition-title {
+    padding-bottom: 2em;
+}
+.competition-what-where-when {
+    padding: 2em;
+}
+.competition-what-img {
+    width: 170px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.competition-where-img {
+    width: 150px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.competition-when-img {
+    width: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#competition-info2 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background: #123e6c;
 }
 
-#tf-competition2 {
-    padding-top: 20px;
-    padding-bottom: 30px;
+.competition-content {
+    padding: 10em;
 }
 
+.competition-content h5 {
+    color: #f3f3f3;
+    font-size: 22px;
+    line-height: 24px;
+}
+#competition-info3 {
+    padding-top: 3em;
+    padding-bottom: 5em;
+}
+.competition-icon-scoring {
+    background-color: royalblue;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    padding: 3px;
+}
 .competition-body1 {
     margin-left: 4em;
     margin-right: 8em;
@@ -1229,15 +1315,6 @@ ul.meta-tags li:last-child:after { content: ' ' }
     margin-bottom: 18px;
     line-height: 26px;
 }
-
-.concept-icon-scoring {
-    background-color: royalblue;
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    padding: 5px;
-}
-
 .scoring {
     margin-bottom: 15px;
     margin-left: 5px;
