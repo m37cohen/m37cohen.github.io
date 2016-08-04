@@ -1,4 +1,17 @@
-/* iPads (portrait and landscape) ----------- */
+/* Breakpoint 992px */
+@media (max-width: 992px) {
+	.competition-banner-title {
+		display: ;
+	}
+	.competition-title h1 {
+		text-align: center;
+	}
+	.competition-content {
+		padding: 6em;
+	}
+}
+
+/* Breakpoint 768px */
 @media (max-width: 768px) {
 	body{ overflow-x: hidden;}
     .navbar-header {
