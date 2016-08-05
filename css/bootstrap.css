@@ -1570,6 +1570,11 @@ pre code {
     width: 750px;
   }
 }
+@media (min-width: 872px) {
+  .container {
+    width: 860px;
+  }
+}
 @media (min-width: 992px) {
   .container {
     width: 970px;

@@ -26,6 +26,7 @@ h1 small {
 }
 h2 {
     line-height: 24px;
+    margin-bottom: 18px;
     font-weight: 300;
 }
 h3 {
@@ -134,11 +135,13 @@ a:focus {
     padding: 60px 0;
 }
 .our-mission-section {
-    margin-left: 10em;
-    margin-right: 10em;
+    padding-left: 10em;
+    padding-right: 10em;
     padding-top: 4em;
     padding-bottom: 4em;
-    text-align: center;
+}
+.our-mission-section h1 {
+    margin-bottom: 18px;
 }
 
 /* Page Break - Banner Concept */
@@ -189,13 +192,14 @@ a:focus {
 
 /* Our Team Section */
 #tf-ourteam {
+    padding-top: 8em;
     padding-bottom: 8em;
 }
 .ourteam-body {
     background: #fff;
     padding-top: 2em;
-    padding-left: 4em;
-    padding-right: 4em;
+    padding-left: 12em;
+    padding-right: 12em;
 }
 
 .ourteam-body .btn-sm {
@@ -228,15 +232,18 @@ a:focus {
     padding-top: 6em;
     padding-bottom: 6em;
 }
-
+.supporters-logo-box {
+    text-align: center;
+}
 .supporters-logo {
-    width: 150px;
+    width: 165px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     display: block;
+    margin-top: 2em;
+    margin-bottom: 1em;
 }
-
 .row .sponsors-home {
     margin-top: 1em;
     margin-bottom: 1em;
@@ -480,7 +487,10 @@ ul.metas li a { color: #e5b112 }
 /*********************************
 /* Map Section
 **********************************/
-#tf-contact { padding: 60px 0 }
+#tf-contact {
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
 #map {
     position: relative;
     width: 100%;
@@ -548,6 +558,10 @@ p.help-block.text-danger ul li {
     background-color: #FDFDFD;
     border-color: #FFCC33;
     margin-bottom: 10px;
+}
+
+.contact-right {
+    margin-top: 4em;
 }
 
 /* Footer */
@@ -818,7 +832,8 @@ ul.meta-tags li:last-child:after { content: ' ' }
     padding-bottom: 6em;
 }
 .competition-title {
-    padding-bottom: 2em;
+    padding-bottom: 1em;
+    padding-left: 4em;
 }
 .competition-title h1 {
     text-align: left;
@@ -837,6 +852,7 @@ ul.meta-tags li:last-child:after { content: ' ' }
     margin-left: auto;
     margin-right: auto;
     display: block;
+    margin-top: 2em;
 }
 .competition-where-img {
     width: 150px;
@@ -844,6 +860,7 @@ ul.meta-tags li:last-child:after { content: ' ' }
     margin-left: auto;
     margin-right: auto;
     display: block;
+    margin-top: 2em;
 }
 .competition-when-img {
     width: 100px;
@@ -851,6 +868,7 @@ ul.meta-tags li:last-child:after { content: ' ' }
     margin-left: auto;
     margin-right: auto;
     display: block;
+    margin-top: 2em;
 }
 #competition-info2 {
     padding-top: 1em;
@@ -873,7 +891,8 @@ ul.meta-tags li:last-child:after { content: ' ' }
 }
 .scoring-criteria-box {
     text-align: center;
-    padding-bottom: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 .competition-icon-scoring {
     background-color: #5098e9;

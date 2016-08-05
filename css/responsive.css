@@ -1,13 +1,33 @@
+@media (min-width: 1200px) {
+	.team-long-name {
+		font-size: 15px;
+	}
+}
+
 /* Breakpoint 992px */
+/* Banners */
 @media (max-width: 992px) {
+	.home-banner-title h1 {
+		font-size: 64px;
+	}
+	.our-mission-section {
+	    padding-left: 6em;
+	    padding-right: 6em;
+	}
 	.competition-banner-title {
 		display: ;
+	}
+	.competition-title {
+		padding-left: 0;
 	}
 	.competition-title h1 {
 		text-align: center;
 	}
 	.competition-content {
 		padding: 6em;
+	}
+	#tf-team-banner {
+		background-position: 0em 1em;
 	}
 }
 
@@ -72,8 +92,6 @@
 	#itemsWorkTwo .box .hover-text i.fa {
 	    top: 0%;
 	}
-}
-@media (max-width: 768px) {
 	#tf-home.slider .content-heading {
     	margin-top: 30px;
 	}
@@ -83,6 +101,19 @@
 	}
 	.slider .content-heading p.lead { margin-bottom: 20px; }
 	.slider .carousel-indicators { bottom: 30px; }
+	#tf-competition-banner {
+		background-size: inherit;
+	}
+	#tf-project-banner {
+		background-size: inherit;
+	}
+	#tf-team-banner {
+		background-size: inherit;
+	}
+	#tf-supporters {
+		padding-left: 4em;
+		padding-right: 4em;
+	}
 }
 @media (max-width: 603px) { 
 	.slider a.goto-btn { display: none;}
@@ -93,7 +124,11 @@
 	    text-align: center;
 	}
 }
-
+@media (max-width: 560px) {
+	.supporters-logo {
+		width: 140px;
+	}
+}
 @media (max-width: 460px) {
 	.gray-bg .vline {
 	    left: 15%;
@@ -104,6 +139,26 @@
     p.lead { display: none;}
     .slider .carousel-indicators { bottom: 0px; }
     .ipad-wrapper .app-wrap {left: 3%;}
+    .our-mission-section {
+	    padding-left: 3em;
+	    padding-right: 3em;
+	    padding-top: 3em;
+	    padding-bottom: 3em;
+	}
+	#tf-supporters {
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+	.supporters-logo {
+		width: 125px;
+	}
+	.competition-content {
+		padding: 6em 3em;
+	}
+	.competition-content h2 {
+		font-size: 22px;
+		line-height: 34px;
+	}
 }
 @media (max-width: 360px) { 
 	#tf-services,
