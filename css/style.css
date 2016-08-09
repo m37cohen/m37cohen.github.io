@@ -775,36 +775,12 @@ ul.meta-tags li:last-child:after { content: ' ' }
     padding-bottom: 60px;
 }
 
-.concept-icon-stackable {
-    background-color: royalblue;
+.concept-icon-project {
+    background-color: #5098e9;
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    padding: 20px;
-}
-
-.concept-icon-sustainable {
-    background-color: cornflowerblue;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    padding: 20px;
-}
-
-.concept-icon-affordable {
-    background-color: seagreen;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    padding: 20px;
-}
-
-.concept-icon-livable {
-    background-color: lightsalmon;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    padding: 20px;
+    padding: 10px;
 }
 
 /* Competition Page */
