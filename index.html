@@ -1,334 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Basic Page Needs
-    ================================================== -->
-    <meta charset="utf-8">
-    <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Team Toronto - Solar Decathlon 2017</title>
-    <meta name="description" content="Team Toronto descritpion goes here...">
-    <meta name="keywords" content="portfolio, agency, bootstrap theme, mobile responsive, template, personal">
-    <meta name="author" content="ThemeForces.Com">
-    
-    <!-- Favicons
-    ================================================== -->
-    <link rel="shortcut icon" href="" type="image/x-icon">
-    <link rel="apple-touch-icon" href="">
-    <link rel="apple-touch-icon" sizes="72x72" href="">
-    <link rel="apple-touch-icon" sizes="114x114" href="">
-
-    <!-- Bootstrap -->
-    <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
-
-    <!-- Nivo Lightbox
-    ================================================== -->
-    <link rel="stylesheet" href="css/nivo-lightbox.css" >
-    <link rel="stylesheet" href="css/nivo_lightbox_themes/default/default.css">
-
-    <!-- Slider
-    ================================================== -->
-    <link href="css/owl.carousel.css" rel="stylesheet" media="screen">
-    <link href="css/owl.theme.css" rel="stylesheet" media="screen">
-
-    <!-- Stylesheet
+        <!-- Stylesheet
     ================================================== -->
     <link rel="stylesheet" type="text/css"  href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 
-    <!-- Google Fonts
+        <!-- jQuery
     ================================================== -->
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/smoothscroll.js"></script>
 
-    <script type="text/javascript" src="js/modernizr.custom.js"></script>
+        <!-- Google Fonts
+    ================================================== -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,400,700" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+        <!-- Font Awesome
+    ================================================== -->
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
   </head>
-  <body>
+  
 
-    <!-- Main Navigation 
+<body>
+
+    <!-- Hidden Nav 
     ================================================== -->
-    <nav id="tf-menu" class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#"><img src="img/logo-text-bold.png" alt="..."></a>
-            </div>
+	  <ul class="navigation">
+	    <li class="nav-item"><a class="nav-text-active" href="index.html">Home</a></li>
+	    <li class="nav-item"><a class="nav-text" href="concept.html">Concept</a></li>
+	    <li class="nav-item"><a class="nav-text" href="mission.html">Mission</a></li>
+	    <li class="nav-item"><a class="nav-text" href="competition.html">Competition</a></li>
+	    <li class="nav-item"><a class="nav-text" href="team.html">Team</a></li>
+	    <li class="nav-item"><a class="nav-text" href="partners.html">Partners</a></li>
+	    <li class="nav-item"><a class="nav-text" href="blog.html">News</a></li>
+	    <li class="nav-item"><a class="nav-text" href="contact.html">Contact</a></li>
+	  </ul>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav navbar-right">
-                <li><a href="competition.html" class="scroll">Competition</a></li>
-                <li><a href="project.html" class="scroll">Project</a></li>
-                <li><a href="team.html" class="scroll">Team</a></li>
-                <li><a href="support.html" class="scroll">Support</a></li>
-                <li><a href="contact.html" class="scroll">Contact</a></li>
-              </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-    </nav>
+	<input type="checkbox" id="nav-trigger" class="nav-trigger"> 
+	<label for="nav-trigger"><span class="hidden_nav"></span></label>  
 
-    <!-- Home Section
-    ================================================== -->
-    <div id="tf-home">
-            <div class="container"> <!-- container -->
-                <div class="home-banner-title"> <!-- Input Your Home Content Here -->
+<!-- Note: the rest of the site needs to be wrapped in unique div (like site-wrap) so it can slide to the side in it's entirety -->
+<div class="site-wrap">
 
-                    <h1>Solar Decathlon 2017</h1>
-
-                    
-                </div><!-- End Input Your Home Content Here -->
-            </div> <!-- end container -->
-    </div>
-
-    <!-- Our Mission Section
-    ================================================== -->
-    <div id="tf-mission">
-        <div class="container"> <!-- container -->
-            <div class="our-mission-section"> <!-- section box for "Our Mission" content -->
-                <h1>Our <span class="highlight"><strong>Mission</strong></span></h1>
-                <h4>As cities expand and land prices soar, life in the downtown core is becoming unattainable for the average family. The resulting suburban sprawl creates a divide between our cities, its people, and the planet.</h4>
-                <h4>Our mission is to provide a sustainable urban lifestyle for modern families - a lifestyle at the intersection of density, affordability, and sustainability.</h4>
-            </div> <!-- End section box for "Our Mission" content -->
-
+    <div class="half-left home-left"> <!-- Left Container -->
+      <div class="left-bg-img" style="background-image:url('img/home-bg2.jpg')"> <!-- Page Left Background -->
+        <div class="left-page-title">
+          <h1></h1> <!-- Page Title -->
         </div>
+      </div>
     </div>
 
-        <!-- Page Break - Banner - Our Concept
-    ================================================== -->
-    <div class="container-fluid">
-        <img class="banner-concept" src="img/banner-concept8.png">
-    </div>
-
-        <!-- Our Concept Section
-    ================================================== -->
-    <div id="tf-concept">
-        <div class="container"> <!-- container  -->
-            <div class="col-md-6"> <!-- left content col 6 -->
-                <div class="concept-body">
-                    <h1>Our <span class="highlight"><strong>Concept</strong></span></h1>
-                    <p>Our proposal is a dense urban infill model that places residents in communities surrounded by public transit, street networks, modern utilities, services and amenities. Choosing sites that satisfy these requirements and maintain affordability are integral to our vision.</p>
-                    <a href="project.html"><button type="button" class="btn btn-primary tf-btn color">Learn More</button></a>
-                </div>
-            </div>
-            <div class="col-md-6" style="margin-top: -1em"> <!-- right content col 6 -->
-                <div class="row">
-                    <div class="col-xs-6">
-                        <img class="concept-icon-home" src="img/concept/stackable.png">
-                        <h5 class="concept-title-home">Stackable</h5>
-                    </div>
-                    <div class="col-xs-6">
-                        <img class="concept-icon-home" src="img/concept/sustainable.png">
-                        <h5 class="concept-title-home">Sustainable</h5>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-6">
-                        <img class="concept-icon-home" src="img/concept/affordable.png">
-                        <h5 class="concept-title-home">Affordable</h5>
-                    </div>
-                    <div class="col-xs-6">
-                        <img class="concept-icon-home" src="img/concept/livable.png">
-                        <h5 class="concept-title-home">Livable</h5>
-                    </div>
-                </div>
-            </div>
+    <div class="half-right home-right"> <!-- Right Container -->
+      <div class="col-md-12" style="height:600px">
+        <div class="home-intro">
+          <img class="home-logo" src="img/logo-text.png">
+          <h2>Introducing a solution to urban sprawl that is SUSTAINABLE</h2>
+          <br>
+          <a href="#autoscroll">
+            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+          </a> <!-- Click to scroll -->
         </div>
-    </div>
+      </div>
 
-            <!-- Page Break - Banner - Our Concept
-    ================================================== -->
-    <div class="container-fluid">
-        <img class="banner-concept" src="img/banner-concept9.png">
-    </div>
-
-        <!-- Page Break - Banner - Team Photo
-    ================================================== -->
-       <!-- <div class="container-fluid" style="margin-bottom:-8em"> 
-            <img class="team-photo-home" src="img/team.png">
-        </div> -->
-
-            <!-- Our Team Section
-    ================================================== -->
-    <div id="tf-ourteam">
-        <div class="container">
-            <div class="ourteam-body">
-                <h1>Our <span class="highlight"><strong>Team</strong></span></h1>
-                <p>Team Toronto is comprised of faculty and students from Ryerson University, University of Toronto and Seneca College. We are an interdisciplinary team from Architecture, Engineering and Business. Together we have extensive knowledge and expertise in conducting research for cutting edge technology, designing sustainable houses, implementing novel theoretical systems and constructing advanced buildings.</p>
-                <a href="team.html"><button type="button" class="btn btn-primary tf-btn color">Meet The Team</button></a>
+        <a href="concept.html">
+          <div id="autoscroll" class="col-md-12 home-concept" style="height:310px">
+            <div class="home-title-box">
+              <h2>Concept</h2>
             </div>
+          </div>
+        <a>
+        <a href="mission.html">
+          <div class="col-md-6 home-mission" style="height:310px">
+            <div class="home-title-box">
+              <h3>Mission</h3>
+            </div>
+          </div>
+        </a>
+        <a href="competition.html">
+          <div class="col-md-6 home-competition" style="height:310px">
+            <div class="home-title-box">
+              <h3>Competition</h3>
+            </div>
+          </div>
+        </a>
+        <a href="team.html">
+          <div class="col-md-12 home-team" style="height:310px">
+            <div class="home-title-box">
+              <h2>Team</h2>
+            </div>
+          </div>
+        </a>
+        <div class="square home-partners" style="height:310px">
+          <a href="partners.html">
+            <div class="home-title-box">
+              <h3>Partners</h3>
+            </div>
+          </a>
         </div>
-    </div>
-
-        <!-- The Competition Section
-    ================================================== -->
-    <div id="tf-competition">
-        <div class="container"> <!-- container  -->
-            <div class="col-md-6" style="margin-top: -1em"> <!-- right content col 6 -->
-                <img class="competition-logo-home" src="img/competition/sdchina2.png">
-            </div>
-            <div class="col-md-6"> <!-- left content col 6 -->
-                <div class="concept-body">
-                    <h1>The <span class="highlight"><strong>Competition</strong></span></h1>
-                    <p>The Solar Decathlon in an international competition wherein participating teams design, build and operate a full-scale, entirely functional net-zero energy house. The competition aims to educate students, inform the public and accelerate the adoption of energy-efficient products.</p>
-                    <a href="competition.html"><button type="button" class="btn btn-primary tf-btn color">More Info</button></a>
-                </div>
-            </div>
+        <div class="square home-news" style="height:310px">
+          <div class="home-title-box">
+            <h3>News</h3>
+          </div>
         </div>
-    </div>
+      </div>
 
-    <!-- Supporters Section
-    ================================================== -->
-    <div id="tf-supporters">
-        <div class="container-fluid"> <!-- container -->
-            <h1>Our <span class="highlight"><strong>Supporters</strong></span></h1>
-            <hr>
-            <div class="row">
-                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
-                    <div class="supporters-logo-box">
-                        <img src="img/logos/sponsors/canadian-solar.png" class="supporters-logo">
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
-                    <div class="supporters-logo-box">
-                        <img src="img/logos/sponsors/canmet.png" class="supporters-logo">
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
-                    <div class="supporters-logo-box">
-                        <img src="img/logos/sponsors/engenico.png" class="supporters-logo">
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
-                    <div class="supporters-logo-box">
-                        <img src="img/logos/sponsors/ecologix.png" class="supporters-logo">
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
-                    <div class="supporters-logo-box">
-                        <img src="img/logos/sponsors/hyperion-solar.png" class="supporters-logo">
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
-                    <div class="supporters-logo-box">
-                        <img src="img/logos/sponsors/fronius.png" class="supporters-logo">
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
-                    <div class="supporters-logo-box">
-                        <img src="img/logos/sponsors/chba.png" class="supporters-logo">
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
-                    <div class="supporters-logo-box">
-                        <img src="img/logos/sponsors/montreal-zero.png" class="supporters-logo">
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
-                    <div class="supporters-logo-box">
-                        <img src="img/logos/sponsors/solar-tomorrow.png" class="supporters-logo">
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
-                    <div class="supporters-logo-box">
-                        <img src="img/logos/sponsors/smith-anderson.png" class="supporters-logo">
-                    </div>
-                </div>
-            </div>
-            <hr>
-
-        </div><!-- end container -->
-
-        <div class="container">
-            <div class="get-involved-home">
-                <h2>Want to Get Involved?</h2>
-                <p>Team Toronto is currently seeking strategic partnerships with corporate sponsors, in-kind donors and press/media.</p>
-                <p>To find out more please get in touch!</p>
-                 <a href="contact.html"><button type="button" class="btn btn-primary tf-btn color">Contact Us</button></a>
-                </div>
-
-            </div>
-        </div>
-
-    </div>
+</div> <!-- end of site-wrap --> 
 
     <!-- Footer 
     ================================================== -->
-    <div id="tf-footer">
-        <div class="container"><!-- container -->
+    <div class="footer">
+        <div class="container"> <!-- container -->
             <div class="col-md-6">
                 <div class="footer-left">
                     <div class="row">
-                        <img src="img/logos/schools/ryerson.png" class="footer-logo">
-                        <img src="img/logos/schools/uoft.png" class="footer-logo">
-                        <img src="img/logos/schools/seneca.png" class="footer-logo">
+                        <a href="http://www.ryerson.ca/index.html" target="blank"><img src="img/logos/schools/ryerson.png" class="footer-logo"></a>
+                        <a href="https://www.utoronto.ca/" target="blank"><img src="img/logos/schools/uoft.png" class="footer-logo"></a>
+                        <a href="http://www.senecacollege.ca/" target="blank"><img src="img/logos/schools/seneca.png" class="footer-logo"></a>
                     </div>
                 </div>
             </div>
             <div class="col-md-6" style="text-align:right">
                 <div class="footer-right">
                     <div class="row">
-                        <ul class="list-inline social pull-right">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                        <ul class="list-inline social">
+                            <li><a href="http://facebook.com/sdteamtoronto" target="blank"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="http://twitter.com/sdteamto" target="blank"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="http://instagram.com/sdteamtoronto" target="blank"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/sd-team-toronto" target="blank"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="http://sdteamto.tumblr.com/" target="blank"><i class="fa fa-tumblr"></i></a></li>
                             <li><a href="contact.html"><i class="fa fa-envelope"></i></a></li>
                         </ul>
-                    </div>
-                    <div class="row">  
-                        <p>© 2016 Team Toronto Solar Decathlon 2017</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script type="text/javascript" src="js/bootstrap.js"></script>
-
-    <script type="text/javascript" src="js/owl.carousel.js"></script><!-- Owl Carousel Plugin -->
-
-    <script type="text/javascript" src="js/SmoothScroll.js"></script>
-
-    <!-- Google Map -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&amp;sensor=false"></script>
-    <script type="text/javascript" src="js/map.js"></script>
-
-    <!-- Parallax Effects -->
-    <script type="text/javascript" src="js/skrollr.js"></script>
-    <script type="text/javascript" src="js/imagesloaded.js"></script>
-
-    <!-- Portfolio Filter -->
-    <script type="text/javascript" src="js/jquery.isotope.js"></script>
-
-    <!-- LightBox Nivo -->
-    <script type="text/javascript" src="js/nivo-lightbox.min.js"></script>
-
-    <!-- Contact page-->
-    <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
-    <script type="text/javascript" src="js/contact.js"></script>
-
-    <!-- Javascripts
-    ================================================== -->
-    <script type="text/javascript" src="js/main.js"></script>
-
-  </body>
+</body>
 </html>
