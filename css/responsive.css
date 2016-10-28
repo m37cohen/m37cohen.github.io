@@ -1,0 +1,32 @@
+@media (max-width: 1140px) {
+	.nav-left {
+		width: 40%;
+	}
+	.nav-right {
+		width: 60%;
+	}
+	.header-left {
+		width: 40%;
+	}
+	.header-right {
+		width: 60%;
+	}
+	.header-tagline {
+	    margin-top: 12em;
+	}
+	.header-tagline h2 {
+		font-size: 36px;
+	}
+	.content-left {
+		width: 40%;
+	}
+	.content-right {
+		width: 60%;
+	}
+	.concept-icon {
+		padding: 5em;
+	}
+	.team-icon {
+	    padding: 1em;
+	}
+}

@@ -1,533 +1,466 @@
 /* Enter Your Custom CSS Here */
-@import 'https://fonts.googleapis.com/css?family=Raleway:200,400,700';
-.body {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-.container {
-    overflow-x: hidden;
-    -webkit-transition: -webkit-transform 0.5s;
-    transition: transform 0.5s;
-    width: 100%;
-    height: 100%;
-}
-
-#main {
-  width: 100%;
-  height: 100%;
-  position: relative;
-}
-
-.fa {
-  color: white;
-}
-
-.fa:hover {
-  color: #95b0cc;
-}
-
 /* Navigation */
-#nav-bar {
+.block-nav {
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 44%;
-    height: 80px;
-    z-index: 98;
-    padding: 20px;
-    background-color: transparent;
-}
-
-.nav-hamburger {
-    width: 30px;
-    height: 30px;
-    margin-bottom: 15px;
-    float: left;
-}
-
-/* Main */
-.section {
     width: 100%;
-    height: 100%;
+    z-index: 1;
+}
+.nav-container {
+	background-color: #65c6c2;
+    height: 80px;
+}
+.nav-left {
+	width: 45%;
+	float: left;
+	background-color: #fff;
+    height: 80px;
+}
+.nav-right {
+	width: 55%;
+	float: left;
+}
+.nav-logo {
+    display: block;
+    margin-left: 2em;
+}
+.nav-logo img {
+    height: 90px;
+    width: auto;
+}
+.dropdown {
     position: relative;
-    padding: 0px 0px;
+    display: inline-block;
+}
+.dropdown-btn {
+    cursor: pointer;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+}
+.dropdown-content a {
+    color: black;
+    text-align: left;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropdown-btn {
+    border-top: 3px solid;
+    transition: 0.2s ease-in-out;;
 }
 
-.half-left {
-  width: 44%;
-  height: 100%;
-  float: left;
-  overflow: hidden;
-  position: fixed;
+/* Header */
+.block-header {
+    padding-top: 5.6em;
+}
+.header-container {
+	background-color: #65c6c2;
+}
+.header-left {
+	width: 45%;
+	float: left;
+	background-color: #fff;
+}
+.header-banner-img {
+	width: 100%;
+}
+.header-right {
+	width: 55%;
+	float: left;
+}
+.header-tagline {
+    text-align: right;
+    margin-top: 18em;
+    margin-right: 4em;
+    color: white;
+}
+.header-tagline h2 {
+	font-size: 46px;
+    letter-spacing: 2px;
+    font-weight: 100;
 }
 
-.half-right {
-  width: 56%;
-  height: 100%;
-  float: right;
-  overflow: hidden;
-  position: relative;
-  background-color: white;
+/* Footer Section */
+.block-footer {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 0.5em;
+}
+.footer-container {
+
+}
+.footer-left {
+
+}
+.footer-right {
+    text-align: right;
+    margin-top: 10px;
+}
+.footer-logo {
+    width: 120px;
+    margin: 0em 1.5em;
 }
 
-.home-left {
-  background-image: ;
-  background-size: cover;
-  background-position: center center;
-}
+/* Content */
+.block-content {
 
-.home-left-content {
-    margin-top: 10em;
+}
+.content-left {
+	width: 45%;
+	float: left;
+}
+.content-right {
+	width: 55%;
+	float: left;
+}
+/* Home - Concept Section */
+.home-concept-block {
+    text-align: right;
+    margin-top: 4em;
+    margin-right: 4em;
+    margin-left: 6em;
+}
+/* Home - Concept - Icons */
+.concept-icon {
+    width: 100%;
+    padding: 7em;
+}
+.stackable-home {
+	background-color: #ffb982;
+}
+.stackable-home:hover {
+	background-color: #FFA65F;
+	transition: 0.3s ease-in-out;
+}
+.sustainable-home {
+	background-color: #ffd582;
+}
+.sustainable-home:hover {
+    background-color: #FFC95F;
+    transition: 0.3s ease-in-out;
+}
+.affordable-home {
+	background-color: #65c6c2;
+}
+.affordable-home:hover {
+    background-color: #258F8B;
+    transition: 0.3s ease-in-out;
+}
+.livable-home {
+	background-color: #7491cf;
+}
+.livable-home:hover {
+    background-color: #5071B7;
+    transition: 0.3s ease-in-out;
+}
+/* Home - Mission Section */
+.block-mission {
+	color: #fff;
+}
+.mission-container {
+	background-color: #65c6c2;
+}
+.mission-left {
+	background-color: #949494;
+    padding-top: 6em;
+    padding-bottom: 1em;
+}
+.mission-left h2 {
+	text-align: right;
+    margin-right: 1em;
+    margin-top: 3em;
+    font-size: 54px;
+}
+.mission-right {
+}
+.mission-content-block {
+    margin-top: 18em;
     margin-left: 2em;
     margin-right: 4em;
+    text-align: left;
+}
+.mission-right h4 {
+    font-weight: 100;
+    line-height: 24px;
+    letter-spacing: 1px;
 }
 
-.home-logo {
-  width: 450px;
-  margin-bottom: 8em;
+/* Home - Team Section */
+.block-team {
+    margin: 14em 3em;
 }
+.home-team-blockleft {
 
-.home-right {
-    overflow-y: scroll;
-    padding-bottom: 45px;
 }
-
-.home-intro {
-  padding: 12em 6em;
-  text-align: center;
+.home-team-blockright {
+    text-align: right;
 }
-
-.fa-chevron-down {
-  color: #333;
-  font-size: 22px !important;
+.home-team-blockleft .row {
+    margin-bottom: 2em;
 }
-
-.fa-chevron-down:hover {
-  font-size: 28px !important;
-  transition: 0.1s ease;
-}
-
-.rectangle {
-  position: relative;
-    z-index: 97;
-    cursor: pointer;
-    text-align: center;
-    width: 100%;
-    background-size: cover;
-    background-position: center center;
-    transition: all 0.3s ease;
-}
-
-.square {
-    cursor: pointer;
-    position: relative;
-    width: 50%;
-    float: left;
-    text-align: center;
-    background-size: cover;
-    background-position: center center;
-    background-color: #000;
-    transition: all 0.3s ease;
-}
-
-.square-content {
-    cursor: pointer;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-}
-
-.home-title-box {
-    background-color: rgba(18, 62, 108, 0.7);
-    text-align: center;
-    margin-top: 8em;
+.team-icon {
+    background-color: #949494;
+    padding: 2em;
     width: 60%;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
-}
-
-.home-title-box h2 {
-    color: white;
-    font-size: 50px;
-    font-weight: 200;
-    text-transform: uppercase;
-    letter-spacing: 10px;
-    padding: 6px 0px;
-}
-
-.home-title-box h3 {
-    color: white;
-    font-size: 30px;
-    font-weight: 200;
-    text-transform: uppercase;
-    letter-spacing: 6px;
-    padding: 2px 0px;
-}
-
-.home-concept {
-  background-image: url('../img/home/home-concept.jpg');
-  background-size: cover;
-  transition: all 0.3s;
-  background-position: center;
-}
-
-.home-concept:hover {
-    box-shadow: inset 0 0 0 6px rgba(18, 62, 108, 0.7);
-    cursor: pointer;
-}
-
-.home-mission {
-  background-image: url('../img/home/home-mission.jpg');
-  background-size: cover;
-  transition: all 0.3s;
-  background-position: center;
-}
-
-.home-mission:hover {
-    box-shadow: inset 0 0 0 6px rgba(18, 62, 108, 0.7);
-    cursor: pointer;
-}
-
-.home-competition {
-  background-image: url('../img/home/home-competition.jpg');
-  background-size: cover;
-  transition: all 0.3s;
-  background-position: center;
-}
-
-.home-competition:hover {
-    box-shadow: inset 0 0 0 6px rgba(18, 62, 108, 0.7);
-    cursor: pointer;
-}
-
-.home-team {
-    background-image: url('../img/home/home-team.jpg');
-    background-size: cover;
-    transition: all 0.3s;
-    background-position: center;
-}
-
-.home-team:hover {
-    box-shadow: inset 0 0 0 6px rgba(18, 62, 108, 0.7);
-    cursor: pointer;
-}
-
-.home-partners {
-  background-image: url('../img/home/home-mission.jpg');
-  background-size: cover;
-  transition: all 0.3s;
-  background-position: center;
-}
-
-.home-partners:hover {
-    box-shadow: inset 0 0 0 6px rgba(18, 62, 108, 0.7);
-    cursor: pointer;
-}
-
-.home-news {
-  background-image: url('../img/home/home-mission.jpg');
-  background-size: cover;
-  transition: all 0.3s;
-  background-position: center;
-}
-
-.home-news:hover {
-    box-shadow: inset 0 0 0 6px rgba(18, 62, 108, 0.7);
-    cursor: pointer;
-}
-
-/* ALL Pages */
-.left-bg-img {
-    height: 650px;
-    background-size: cover;
-    background-position: center;
-    margin-top: -2em;
-}
-
-.left-page-title {
-    padding-top: 20em;
-}
-
-.left-page-title h1 {
-    color: white;
-    font-size: 42px;
-    font-weight: 200;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    text-align: center;
-}
-
-.page-right {
-    overflow-y: scroll;
-    padding-bottom: 6em;
-}
-
-/* Concept Page */
-.page-concept {
-    margin-top: 6em;
-    padding-left: 5em;
-    padding-right: 8em;
-}
-
-#nav-bar-concept {
-    background-color: white;
-    position: fixed;
-    top: 0;
-    width: 56%;
-    z-index: 97;
-    text-align: center;
-    padding: 20px 0;
-}
-
-.concept-navtext {
-  color: #333;
-}
-
-.concept-icon-row {
-  padding-bottom: 16px;
-  height: 150px;
-}
-.concept-icon {
-    background-color: #95b0cc;
+    display: block;
     border-radius: 50%;
-    width: 90px;
-    height: 90px;
-    padding: 5px;
-    margin-top: 1.5em;
 }
 
-/* Competition Page */
-.page-competition {
+/* Home - Partners Section */
+.block-partners {
+    color: #fff;
+}
+.partners-container {
+    background-color: #eceff1;
+}
+.partners-left {
+    background-color: #65c6c2;
+    padding-top: 12.5em;
+    padding-bottom: 1em;
+}
+.partners-left h2 {
+    text-align: right;
+    margin-right: 1em;
+    margin-top: 3em;
+    font-size: 54px;
+}
+.partners-content-block {
+    margin: ;
+}
+
+.partners-content-block img {
+    width: 100%;
+    padding: 2em;
+}
+.partners-right {
     margin-top: 6em;
-    padding-left: 5em;
-    padding-right: 8em;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
-.competition-logo-row {
-  margin-top: 5em;
-  margin-bottom: 5em;
+/* Home - Connect Section */
+.block-connect {
+    color: #fff;
+}
+.connect-container {
+    background-color: #FFB982;
+}
+.connect-left {
+    background-color: #7491cf;
+    padding-top: 6em;
+    padding-bottom: 1em;
+    padding-left: 2.5em;
+}
+.connect-left h2 {
+    color: #fff;
+}
+.connect-left:hover {
+    background-color: #5071B7;
+    transition: 0.2s ease-in-out;
+}
+.connect-right {
+    padding-top: 6em;
+    padding-bottom: 1em;
+    padding-left: 2.5em;
+}
+.connect-right h2 {
+    color: #fff;
+}
+.connect-right:hover {
+    background-color: #FFA65F;
+    transition: 0.2s ease-in-out;
 }
 
-.competition-logo-sdchina {
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    padding: 6px;
+/* Pages - Subheader */
+.block-subheader {
+    color: #fff;
 }
 
-.competition-logo-usdoe {
-    width: 300px;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    padding: 6px;
+.subheader-container {
+    background-color: #65c6c2;
+}
+.subheader-left {
+    background-color: #949494;
+    padding-top: 3em;
+    padding-bottom: 1em;  
+}
+.subheader-left h2 {
+    text-align: right;
+    margin-right: 1em;
+    margin-top: 2em;
+    font-size: 54px;
+}
+.subheader-right {
+    margin-top: -1em;
+}
+.subheader-content-block {
+    margin-top: 11em;
+    margin-left: 2em;
+    margin-right: 4em;
+    text-align: left;
+}
+.subheader-right h4 {
+    font-weight: 100;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+
+/* Concept Pages */
+.concept-banner-img {
+    width: 100%;
+}
+.header-title {
+    text-align: right;
+    margin-top: 11em;
+    margin-right: 8em;
+    color: white;
+}
+.header-title h2 {
+    font-size: 46px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+.concept-content {
+    width: 68%;
+    margin-top: 6em;
+    margin-bottom: 4em;
+    margin-left: 6em;
+}
+.concept-content p {
+    margin-bottom: 1.7em;
+}
+.concept-picture {
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 2em;
 }
 
 /* Team Page */
-.team-profilepic {
-  width: 100%;
-  opacity: 0.8;
+.team-dropdown {
+    color: #fff;
+    padding: 1.2em 6em;
+    font-weight: 
+}
+.team-dropdown h3 {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.dropdown-faculty {
+    background-color: #5071B7;
+}
+.dropdown-leads {
+    background-color: #FFA65F;
 }
 
-.team-infohover {
-  color: #fff;
-  opacity: 0;
-  height: 100%;
-  width: 100%;
-  text-align: center;
-  margin-top: 4em;
+.dropdown-students {
+    background-color: #FFC95F;
 }
 
-.team-infohover:hover {
-  opacity: 1;
+button.accordion {
+    color: #fff;
+    cursor: pointer;
+    padding: 1.8em 3em;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    letter-spacing: 1px;
+    transition: 0.4s;
+}
+.faculty-accordion {
+    background-color: #7491CF;
+}
+button.faculty-accordion.active, button.faculty-accordion:hover {
+    background-color: #5071B7;
+}
+.leads-accordion {
+    background-color: #FFB982;
+}
+button.leads-accordion.active, button.leads-accordion:hover {
+    background-color: #FFA65F;
+}
+.students-accordion {
+    background-color: #FFD582;
+}
+button.students-accordion.active, button.students-accordion:hover {
+    background-color: #FFC95F;
+}
+div.panel-team {
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
 }
 
-.team-profilepic:hover {
-  opacity: ;
-  transition: ;
+div.panel-team.show {
+    padding: 3em 2em;
+    opacity: 1;
+    max-height: 3000px;
 }
 
-.team-profpic {
-    height: 166px;
-    background-size: cover;
+.team-bio-box {
+    margin-bottom: 2em;
 }
-
-.team-profpic:hover {
-  opacity: ;
-  transition: ;
+.team-bio-left {
+    width: 50%;
+    float: left;
+    padding: 8px;
 }
-
-/* Partners Page */
-.page-partners {
-    margin-top: 6em;
-    padding-left: 5em;
-    padding-right: 8em;
+.team-bio-right {
+    width: 50%;
+    float: left;
+    padding: 8px;
 }
-
-.partners-leveltitle {
-  text-align: center;
-  text-transform: uppercase;
-  margin-top: 3em;
-}
-
-.partners-logo-box {
-    text-align: center;
-}
-
-.partners-logo {
-    width: 140px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    margin-top: 1em;
+.team-bio-right h4 {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    font-size: 16px;
     margin-bottom: 1em;
-    padding: 1em;
+}
+.team-bio-right p {
+    line-height: 1.2em;
+}
+.team-bio-photo {
+    width: 100%;
 }
 
+/* Support Page */
+.support-content {
+    margin-top: 3em;
+    margin-bottom: 4em;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+.support-content img {
+    width: 100%;
+    padding: 4em;
+}
+.support-getinvolved {
+    background-color: #eceff1;
+    padding: 6em 4em;
+}
 /* Contact Page */
-.page-contact {
-    margin-top: 6em;
-    padding-left: 5em;
-    padding-right: 8em;
+.contact-content {
+    margin-top: 4em;
+    margin-bottom: 6em;
+    padding-left: 14em;
+    padding-right: 4em;
 }
 
 
-/* Footer */
-.footer {
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: #123e6c;
-    padding-top: 10px;
-    padding-bottom: 2px;
-    z-index: 999999;
-}
 
-.footer-logo {
-  height: 28px;
-  padding-right: 3em;
-}
-
-/* Hidden Navigation */
-.navigation {
-  list-style: none;
-  background: #123e6c; /* Backgound color */
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  padding-top: 2em;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  /*hides nav behind content */
-  z-index: 0;
-  /*get rid of color gap on top of menu*/
-  margin-top: 0;   
-}
-
-.nav-text {
-  color: #fff;
-}
-
-.nav-text-active {
-  color: #95b0cc;
-}
-
-.nav-text:hover {
-  color: #95b0cc;
-}
-
-a {
-  text-decoration:none;
-  color: #ffffff; /*white*/
-}
-
-li.nav-item {
-  font-size: 20px;
-  padding-bottom: 2px;
-  font-weight: 100;
-}
-       /*--------end of navigation styling--------*/
-
-.site-wrap {
-  min-width: 100%;
-  min-height: 100%;
-  background-color: #ffffff; /* white */
-  position: relative;
-  top: 0;
-  bottom: 100%;
-  left: 0;
-  z-index: 1;
-  padding: ; /*spaces out content from hamburger*/
-}
-
-    /*----stylize nav-trigger actions and looks-----*/
-/*hide the checkbox*/
-.nav-trigger {
-  position: fixed;
-  clip: rect(0, 0, 0, 0);
-}
-
-label[for="nav-trigger"] {
-  /*nav stays in the same spot as user scrolls*/
-  position: fixed; 
-  /*position hamburger menu*/
-  top: 15px;
-  left: 15px;
-  /*z-index needs to be 1 higher than site-wrap*/
-  z-index: 2;
-  width: 30px;
-  height: 30px;
-  /*changing to pointer indicates interactivity*/
-  cursor: pointer;
-  color: #111111;
-}
-
-/*styling to create "hamburger" icon (refer to notes)*/
-.hidden_nav:before {
-  content: "";
-  position: absolute;
-  top: 1em;
-  width: 2em;
-  height: 1.1em;
-  border-top: .7em double #fff;
-  border-bottom: 0.25em solid #fff;
-  z-index: 3;
-}
-
-/*the following lines make the effect work*/
-/*below styling controls label position when menu opens- add 15px, because we did left:15px in label[for="nav-trigger"]*/
-/*uses adjacent sibling selector (+)--> nav-trigger:checked must come first so label moves after checkbox is activated*/
-.nav-trigger:checked + label {
-  left: 200px;
-}
-
-/*ensures that the site-wrap is pushed to the right*/
-/*uses general sibling selector (~) to target site wrap after nav-trigger gets activated*/
-.nav-trigger:checked ~ .site-wrap {
-  left: 180px;
-  opacity: 0.5; /* tinted effect on .site-wrap when menu is open */
-  transition: 0.2s ease-in-out;
-}
-
-/*add slight transition to effect*/
-
-.nav-trigger + label, .site-wrap {
-  transition: left 0.2s;
-}
-
-/*keep site-wrap from scrolling across window from left to right when menu is opened*/
-body {
-  overflow-x: hidden;
-}
-    /*----end of styling navigation actions and looks----*/
-
-/*---end of what is required for sliding hamburger drawer effect--*/

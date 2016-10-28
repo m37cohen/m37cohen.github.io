@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ECOstudio</title>
+    <meta name="description" content="ECOstudio is a Toronto based design initiative from an interdisciplinary group of faculty and staff at Ryerson University, the University of Toronto and Seneca College. The result of this project is SOLARblock, an energy efficient home that hopes to be an affordable, sustainable and livable new form of urban midrise housing.">
+    <meta name="keywords" content="toronto, sustainable development, solar, urban planning, efficient, engineering, architecture">
+
+    <!-- Favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="img/favicon/icon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/icon.png">
+
         <!-- Stylesheet
     ================================================== -->
     <link rel="stylesheet" type="text/css"  href="css/style.css">
@@ -9,13 +24,11 @@
 
         <!-- jQuery
     ================================================== -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
-    <script type="text/javascript" src="js/smoothscroll.js"></script>
 
         <!-- Google Fonts
     ================================================== -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:200,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
 
         <!-- Font Awesome
     ================================================== -->
@@ -26,114 +39,229 @@
 
 <body>
 
-    <!-- Hidden Nav 
+    <!-- Navigation 
     ================================================== -->
-	  <ul class="navigation">
-	    <li class="nav-item"><a class="nav-text-active" href="index.html">Home</a></li>
-	    <li class="nav-item"><a class="nav-text" href="concept.html">Concept</a></li>
-	    <li class="nav-item"><a class="nav-text" href="mission.html">Mission</a></li>
-	    <li class="nav-item"><a class="nav-text" href="competition.html">Competition</a></li>
-	    <li class="nav-item"><a class="nav-text" href="team.html">Team</a></li>
-	    <li class="nav-item"><a class="nav-text" href="partners.html">Partners</a></li>
-	    <li class="nav-item"><a class="nav-text" href="blog.html">News</a></li>
-	    <li class="nav-item"><a class="nav-text" href="contact.html">Contact</a></li>
-	  </ul>
 
-	<input type="checkbox" id="nav-trigger" class="nav-trigger"> 
-	<label for="nav-trigger"><span class="hidden_nav"></span></label>  
-
-<!-- Note: the rest of the site needs to be wrapped in unique div (like site-wrap) so it can slide to the side in it's entirety -->
-<div class="site-wrap">
-
-    <div class="half-left home-left"> <!-- Left Container -->
-      <div class="left-bg-img" style="background-image:url('img/home-bg2.jpg')"> <!-- Page Left Background -->
-        <div class="left-page-title">
-          <h1></h1> <!-- Page Title -->
+    <div class="block-nav">
+        <div class="container-fluid nav-container">
+            <div class="nav-left">
+                <a class="nav-logo" href="index.html"><img src="img/logo.png"></a>
+            </div>
+            <div class="nav-right">
+                <div class="" id="">
+                  <ul class="nav navbar-nav">
+                    <li><a href="about.html" class="">About</a></li>
+                    <li class="dropdown">
+                        <a href="concept.html" class="dropdown-btn">Concept</a>
+                        <div class="dropdown-content">
+                          <a href="architecture.html">Architecture</a>
+                          <a href="buildingscience.html">Building Science</a>
+                          <a href="electrical.html">Electrical Systems</a>
+                          <a href="interiordesign.html">Interior Design</a>
+                          <a href="mechanical.html">Mechanical</a>
+                        </div>
+                    </li>
+                    <li><a href="team.html" class="">Team</a></li>
+                    <li><a href="support.html" class="">Support</a></li>
+                    <li><a href="contact.html" class="">Contact</a></li>
+                  </ul>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
 
-    <div class="half-right home-right"> <!-- Right Container -->
-      <div class="col-md-12" style="height:600px">
-        <div class="home-intro">
-          <img class="home-logo" src="img/logo-text.png">
-          <h2>Introducing a solution to urban sprawl that is SUSTAINABLE</h2>
-          <br>
-          <a href="#autoscroll">
-            <i class="fa fa-chevron-down" aria-hidden="true"></i>
-          </a> <!-- Click to scroll -->
-        </div>
-      </div>
-
-        <a href="concept.html">
-          <div id="autoscroll" class="col-md-12 home-concept" style="height:310px">
-            <div class="home-title-box">
-              <h2>Concept</h2>
-            </div>
-          </div>
-        <a>
-        <a href="mission.html">
-          <div class="col-md-6 home-mission" style="height:310px">
-            <div class="home-title-box">
-              <h3>Mission</h3>
-            </div>
-          </div>
-        </a>
-        <a href="competition.html">
-          <div class="col-md-6 home-competition" style="height:310px">
-            <div class="home-title-box">
-              <h3>Competition</h3>
-            </div>
-          </div>
-        </a>
-        <a href="team.html">
-          <div class="col-md-12 home-team" style="height:310px">
-            <div class="home-title-box">
-              <h2>Team</h2>
-            </div>
-          </div>
-        </a>
-        <div class="square home-partners" style="height:310px">
-          <a href="partners.html">
-            <div class="home-title-box">
-              <h3>Partners</h3>
-            </div>
-          </a>
-        </div>
-        <div class="square home-news" style="height:310px">
-          <div class="home-title-box">
-            <h3>News</h3>
-          </div>
-        </div>
-      </div>
-
-</div> <!-- end of site-wrap --> 
-
-    <!-- Footer 
+    <!-- Header 
     ================================================== -->
-    <div class="footer">
-        <div class="container"> <!-- container -->
-            <div class="col-md-6">
-                <div class="footer-left">
+    <div class="block-header">
+        <div class="container-fluid header-container">
+            <div class="header-left">
+                <div class="">
+                    <img src="img/home-banner.jpg" class="header-banner-img">
+                </div>
+            </div>
+            <div class="header-right">
+                <div class="header-tagline">
+                    <h2>The Next Generation of Sustainable Design</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Content - Concept 
+    ================================================== -->
+
+    <div id="block-concept">
+        <div class="container-fluid concept-container">
+            <div class="content-left">
+                <div class="col-sm-6">
+                    <img src="img/concept/stackable.png" class="concept-icon stackable-home">
+                </div>
+                <div class="col-sm-6">
+                    <img src="img/concept/sustainable.png" class="concept-icon sustainable-home">
+                </div>
+                <div class="col-sm-6">
+                    <img src="img/concept/affordable.png" class="concept-icon affordable-home">
+                </div>
+                <div class="col-sm-6">
+                    <img src="img/concept/livable.png" class="concept-icon livable-home">
+                </div>
+            </div>
+            <div class="content-right">
+                <div class="home-concept-block">
+                    <h2>Introducing SOLARblock</h2>
+                    <p>Our concept is a dense urban infill model that seeks to reinvigorate and restore downtown communities with affordable and sustainable midrise housing.</p>
+                    <p>Choosing sites within biking and walking distance to jobs, schools, parks and public transit - and that maintain a sense of community - are integral to our vision.</p>
+                    <button type="button" class="btn btn-primary tf-btn color">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Content - Mission 
+    ================================================== -->
+    <div class="block-mission">
+        <div class="container-fluid mission-container">
+            <div class="content-left mission-left">
+                <h2>Our Mission</h2>
+            </div>
+            <div class="content-right mission-right">
+                <div class="mission-content-block">
+                    <h4>To provide a sustainable housing solution for blah blah. Our goal is to create this and help educate and do this and also do that.</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Content - Team 
+    ================================================== -->
+    <div class="block-team">
+        <div class="container-fluid concept-container">
+            <div class="content-left">
+                <div class="home-team-blockleft">
                     <div class="row">
-                        <a href="http://www.ryerson.ca/index.html" target="blank"><img src="img/logos/schools/ryerson.png" class="footer-logo"></a>
-                        <a href="https://www.utoronto.ca/" target="blank"><img src="img/logos/schools/uoft.png" class="footer-logo"></a>
-                        <a href="http://www.senecacollege.ca/" target="blank"><img src="img/logos/schools/seneca.png" class="footer-logo"></a>
+                        <div class="col-sm-3">
+                            <img src="img/team-icon/architecture.png" class="team-icon">
+                        </div>  
+                        <div class="col-sm-9">
+                            <h3>Architecture</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img src="img/team-icon/business.png" class="team-icon">
+                        </div>  
+                        <div class="col-sm-9">
+                            <h3>Business</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img src="img/team-icon/engineering.png" class="team-icon">
+                        </div>  
+                        <div class="col-sm-9">
+                            <h3>Engineering</h3>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6" style="text-align:right">
-                <div class="footer-right">
-                    <div class="row">
-                        <ul class="list-inline social">
-                            <li><a href="http://facebook.com/sdteamtoronto" target="blank"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="http://twitter.com/sdteamto" target="blank"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="http://instagram.com/sdteamtoronto" target="blank"><i class="fa fa-instagram"></i></a></li>
-                            <li><a href="https://www.linkedin.com/company/sd-team-toronto" target="blank"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="http://sdteamto.tumblr.com/" target="blank"><i class="fa fa-tumblr"></i></a></li>
-                            <li><a href="contact.html"><i class="fa fa-envelope"></i></a></li>
-                        </ul>
+            <div class="content-right">
+                <div class="home-team-blockright">
+                    <h2>Who We Are</h2>
+                    <p>Based in Toronto, ECOstudio is comprised of students and faculty from Ryerson University, University of Toronto and Seneca College. We are an interdisciplinary team with a collective background in the fields of Architecture, Engineering and Business.
+                    <p>Together we have extensive knowledge and expertise in conducting research for cutting edge technology, designing sustainable houses, implementing novel theoretical systems and constructing advanced buildings.</p>
+                    <a href="team.html"><button type="button" class="btn btn-primary tf-btn color">Meet The Team</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Content - Partners 
+    ================================================== -->
+    <div class="block-partners">
+        <div class="container-fluid partners-container">
+            <div class="content-left partners-left">
+                <h2>Our Partners</h2>
+            </div>
+            <div class="content-right partners-right">
+                <div class="container-fluid partners-content-block">
+                    <div class="col-md-3">
+                        <img src="img/logos/sponsors/canadian-solar.png">
                     </div>
+                    <div class="col-md-3">
+                        <img src="img/logos/sponsors/canmet.png">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="img/logos/sponsors/cachelan.png">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="img/logos/sponsors/solar-tomorrow.png">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="img/logos/sponsors/smith-anderson.png">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="img/logos/sponsors/engenico.png">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="img/logos/sponsors/chba.png">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="img/logos/sponsors/fronius.png">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="img/logos/sponsors/raw-architects.png">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="img/logos/sponsors/tr-conservation.png">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="img/logos/sponsors/montreal-zero.png">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="img/logos/sponsors/ecologix.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Content - News / Contact 
+    ================================================== -->
+    <div class="block-connect">
+        <div class="container-fluid connect-container">
+            <a href="news.html">
+                <div class="content-left connect-left">
+                    <h2>News</h2>
+                </div>
+            </a>
+            <a href="contact.html">
+                <div class="content-right connect-right">
+                    <h2>Contact</h2>
+                </div>
+            </a>
+        </div>
+    </div>
+
+        <!-- Footer
+    ================================================== -->
+    <div class="block-footer">
+        <div class="container-fluid footer-container">
+            <div class="content-left footer-left">
+                <div class="row">
+                    <a href="http://www.ryerson.ca/index.html" target="blank"><img src="img/logos/schools/ryerson.png" class="footer-logo"></a>
+                    <a href="https://www.utoronto.ca/" target="blank"><img src="img/logos/schools/uoft.png" class="footer-logo"></a>
+                    <a href="http://www.senecacollege.ca/" target="blank"><img src="img/logos/schools/seneca.png" class="footer-logo"></a>
+                </div>
+            </div>
+            <div class="content-right footer-right">
+                <div class="row">
+                    <ul class="list-inline social">
+                        <li><a href="http://facebook.com/sdteamtoronto" target="blank"><i class="fa icon-color fa-facebook"></i></a></li>
+                        <li><a href="http://twitter.com/sdteamto" target="blank"><i class="fa icon-color fa-twitter"></i></a></li>
+                        <li><a href="http://instagram.com/sdteamtoronto" target="blank"><i class="fa icon-color fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/sd-team-toronto" target="blank"><i class="fa icon-color fa-linkedin"></i></a></li>
+                        <li><a href="contact.html"><i class="fa icon-color fa-envelope"></i></a></li>
+                    </ul>
                 </div>
             </div>
         </div>

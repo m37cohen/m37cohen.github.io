@@ -20,6 +20,16 @@
   -moz-osx-font-smoothing: grayscale;
   transform: translate(0, 0);
 }
+.icon-color {
+  color: #65c6c2;
+  font-size: 24px;
+  margin: 12px;
+}
+
+.icon-color:hover {
+  color: #258F8B;
+  transition: 0.2 ease;
+}
 /* makes the font 33% larger relative to the icon container */
 .fa-lg {
   font-size: 1.33333333em;

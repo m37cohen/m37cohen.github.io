@@ -1391,11 +1391,15 @@ html {
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
     background-color: #fff
+}
+
+p {
+    line-height: 1.8em;
 }
 
 button,
@@ -1491,8 +1495,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: inherit;
-    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
     line-height: 1.1;
     color: inherit
 }
@@ -1995,8 +1999,8 @@ pre code {
 }
 
 .row {
-    margin-right: -15px;
-    margin-left: -15px
+    margin-right: ;
+    margin-left: ;
 }
 
 .col-lg-1,
@@ -3649,6 +3653,7 @@ textarea.input-lg {
     font-size: 14px;
     font-weight: 400;
     line-height: 1.42857143;
+    margin: 1em 0em;
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
@@ -3661,7 +3666,6 @@ textarea.input-lg {
     user-select: none;
     background-image: none;
     border: 1px solid transparent;
-    border-radius: 4px
 }
 
 .btn.active.focus,
@@ -3771,30 +3775,30 @@ fieldset[disabled] .btn-default:hover {
 }
 
 .btn-primary {
-    color: #fff;
-    background-color: #337ab7;
-    border-color: #2e6da4
+    color: white;
+    border-color: #65c6c2;
+    background-color: #65c6c2;
 }
 
 .btn-primary.focus,
 .btn-primary:focus {
     color: #fff;
-    background-color: #286090;
-    border-color: #122b40
+    background-color: #258F8B;
+    border-color: #258F8B;
 }
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #286090;
-    border-color: #204d74
+    background-color: #258F8B;
+    border-color: #258F8B;
 }
 
 .btn-primary.active,
 .btn-primary:active,
 .open>.dropdown-toggle.btn-primary {
     color: #fff;
-    background-color: #286090;
-    border-color: #204d74
+    background-color: #258F8B;
+    border-color: #258F8B;
 }
 
 .btn-primary.active.focus,
@@ -3807,8 +3811,8 @@ fieldset[disabled] .btn-default:hover {
 .open>.dropdown-toggle.btn-primary:focus,
 .open>.dropdown-toggle.btn-primary:hover {
     color: #fff;
-    background-color: #204d74;
-    border-color: #122b40
+    background-color: #258F8B;
+    border-color: #258F8B;
 }
 
 .btn-primary.active,
@@ -4779,19 +4783,20 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 .nav>li {
     position: relative;
-    display: block
+    display: inline-block;
 }
 
 .nav>li>a {
     position: relative;
     display: block;
-    padding: 10px 15px
+    padding: 10px 18px
 }
 
 .nav>li>a:focus,
 .nav>li>a:hover {
     text-decoration: none;
-    background-color: #eee
+    border-top: 3px solid;
+    transition: 0.2s ease-in-out;
 }
 
 .nav>li.disabled>a {
@@ -5192,7 +5197,12 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .navbar-nav>li>a {
     padding-top: 10px;
     padding-bottom: 10px;
-    line-height: 20px
+    line-height: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-top: 3px solid #65c6c2;
 }
 
 @media (max-width:767px) {
@@ -5221,11 +5231,12 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 @media (min-width:768px) {
     .navbar-nav {
-        float: left;
-        margin: 0
+        margin-top: 1.4em;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
     }
     .navbar-nav>li {
-        float: left
     }
     .navbar-nav>li>a {
         padding-top: 15px;
