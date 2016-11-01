@@ -1,31 +1,13 @@
 /* Enter Your Custom CSS Here */
 /* Navigation */
-.block-nav {
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-}
-.nav-container {
-	background-color: #65c6c2;
-    height: 80px;
-}
-.nav-left {
-	width: 45%;
-	float: left;
-	background-color: #fff;
-    height: 80px;
-}
-.nav-right {
-	width: 55%;
-	float: left;
-}
-.nav-logo {
-    display: block;
-    margin-left: 2em;
-}
-.nav-logo img {
-    height: 90px;
+.navbar-brand img {
+    height: 35px;
     width: auto;
+}
+.navbar-right {
+    width: 55%;
+    background-color: #65c6c2;
+    padding-bottom: 10px;
 }
 .dropdown {
     position: relative;
@@ -54,13 +36,13 @@
     display: block;
 }
 .dropdown:hover .dropdown-btn {
-    border-top: 3px solid;
+    border-top: 4px solid;
     transition: 0.2s ease-in-out;;
 }
 
 /* Header */
 .block-header {
-    padding-top: 5.6em;
+    padding-top: 4.6em;
 }
 .header-container {
 	background-color: #65c6c2;
@@ -124,10 +106,13 @@
 }
 /* Home - Concept Section */
 .home-concept-block {
-    text-align: right;
-    margin-top: 4em;
+    margin-top: 6em;
+    margin-left: 7em;
     margin-right: 4em;
-    margin-left: 6em;
+}
+.concept-container h2 {
+    font-weight: 400;
+    letter-spacing: 0.5px;
 }
 /* Home - Concept - Icons */
 .concept-icon {
@@ -162,6 +147,9 @@
     background-color: #5071B7;
     transition: 0.3s ease-in-out;
 }
+.home-fouricon-mobile {
+    display: none;
+}
 /* Home - Mission Section */
 .block-mission {
 	color: #fff;
@@ -171,22 +159,18 @@
 }
 .mission-left {
 	background-color: #949494;
-    padding-top: 6em;
-    padding-bottom: 1em;
+    padding-top: 12em;
+    padding-right: 2em;
+    text-align: right;
 }
 .mission-left h2 {
-	text-align: right;
-    margin-right: 1em;
-    margin-top: 3em;
     font-size: 54px;
 }
 .mission-right {
+    margin-top: 12em;
+    padding-left: 2em;
 }
 .mission-content-block {
-    margin-top: 18em;
-    margin-left: 2em;
-    margin-right: 4em;
-    text-align: left;
 }
 .mission-right h4 {
     font-weight: 100;
@@ -196,26 +180,30 @@
 
 /* Home - Team Section */
 .block-team {
-    margin: 14em 3em;
+    margin: 10em 3em;
 }
 .home-team-blockleft {
-
+    margin: 2em 4em;
 }
 .home-team-blockright {
-    text-align: right;
+    margin-left: 7em;
+    margin-right: 4em;
 }
 .home-team-blockleft .row {
     margin-bottom: 2em;
 }
 .team-icon {
     background-color: #949494;
-    padding: 2em;
+    padding: 1.5em;
     width: 60%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     display: block;
     border-radius: 50%;
+}
+.home-teamicon-mobile {
+    display: none;
 }
 
 /* Home - Partners Section */
@@ -301,6 +289,8 @@
     margin-right: 1em;
     margin-top: 2em;
     font-size: 54px;
+    font-weight: 400;
+    letter-spacing: 1px;
 }
 .subheader-right {
     margin-top: -1em;
@@ -371,13 +361,13 @@
 button.accordion {
     color: #fff;
     cursor: pointer;
-    padding: 1.8em 3em;
+    padding: 1.5em 3em;
     width: 100%;
     border: none;
     text-align: left;
     outline: none;
     font-family: 'Raleway', sans-serif;
-    font-size: 24px;
+    font-size: 28px;
     letter-spacing: 1px;
     transition: 0.4s;
 }
@@ -410,7 +400,7 @@ div.panel-team {
 div.panel-team.show {
     padding: 3em 2em;
     opacity: 1;
-    max-height: 3000px;
+    max-height: 8000px;
 }
 
 .team-bio-box {
@@ -430,13 +420,22 @@ div.panel-team.show {
     font-family: 'Open Sans', sans-serif;
     color: #333;
     font-size: 16px;
-    margin-bottom: 1em;
+    margin-bottom: 12px;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 6px;
 }
 .team-bio-right p {
     line-height: 1.2em;
 }
 .team-bio-photo {
     width: 100%;
+}
+.students-container h4 {
+    font-size: 15px;
+}
+.students-container p {
+    font-size: 13px;
+    margin-bottom: 8px;
 }
 
 /* Support Page */

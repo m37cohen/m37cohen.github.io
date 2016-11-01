@@ -1,8 +1,5 @@
 @media (max-width: 1140px) {
-	.nav-left {
-		width: 40%;
-	}
-	.nav-right {
+	.navbar-right {
 		width: 60%;
 	}
 	.header-left {
@@ -28,5 +25,98 @@
 	}
 	.team-icon {
 	    padding: 1em;
+	}
+}
+
+@media (max-width: 1160px) {
+	.subheader-content-block h4 {
+		font-size: 16px;
+	}
+
+@media (max-width: 970px) {
+	.subheader-content-block h4 {
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+@media (max-width: 920px) {
+	.navbar-nav {
+		font-size: 13px;
+	}
+}
+
+@media (max-width: 860px) {
+
+
+@media (max-width: 767px) {
+	.header-left {
+		width: 100%;
+	}
+	.header-right {
+		width: 100%;
+	}
+	.header-tagline {
+		margin-top: 5em;
+		margin-bottom: 2em;
+	}
+	.header-tagline h2 {
+    	font-size: 54px;
+	}
+	.content-left {
+		width: 100%;
+	}
+	.content-right {
+		width: 100%;
+	}
+	.home-concept-block {
+	    margin-top: 8em;
+    	margin-bottom: 8em;
+    	margin-right: 7em;
+    	margin-left: 7em;
+	}
+	.home-fouricon-desktop {
+		display: none;
+	}
+	.home-fouricon-mobile {
+		display: block;
+	}
+	.block-team {
+		margin: 8em 1em;
+	}
+	.home-team-blockright {
+    	margin-left: 6em;
+    	margin-right: 6em;
+	}
+	.home-team-blockleft .row {
+	    width: 33%;
+	    float: left;
+	    margin-top: 6em;
+	}
+	.home-team-blockleft .row h3 {
+	    font-size: 20px;
+    	text-align: center;
+	}
+	.team-icon {
+		width: 50%;
+		padding: 2em;
+	}
+	.home-teamicon-desktop {
+		display: none;
+	}
+	.home-teamicon-mobile {
+		display: block;
+	}
+	.faculty-leads-container h4 {
+		font-size: 24px;
+		font-weight: 400;
+	}
+	.faculty-leads-container p {
+		font-size: 16px;
+		font-weight: 400;
+	}
+
+@media (max-width: 540px) {
+	div.panel-team.show {
+	    padding: 3em 1em;
 	}
 }

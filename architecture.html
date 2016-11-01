@@ -42,33 +42,40 @@
     <!-- Navigation 
     ================================================== -->
 
-    <div class="block-nav">
-        <div class="container-fluid nav-container">
-            <div class="nav-left">
-                <a class="nav-logo" href="index.html"><img src="img/logo.png"></a>
+    <nav id="" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="..."></a>
             </div>
-            <div class="nav-right">
-                <div class="" id="">
-                  <ul class="nav navbar-nav">
-                    <li><a href="about.html" class="">About</a></li>
-                    <li class="dropdown">
-                        <a href="concept.html" class="dropdown-btn">Concept</a>
-                        <div class="dropdown-content">
-                          <a href="architecture.html">Architecture</a>
-                          <a href="buildingscience.html">Building Science</a>
-                          <a href="electrical.html">Electrical Systems</a>
-                          <a href="interiordesign.html">Interior Design</a>
-                          <a href="mechanical.html">Mechanical</a>
-                        </div>
-                    </li>
-                    <li><a href="team.html" class="">Team</a></li>
-                    <li><a href="support.html" class="">Support</a></li>
-                    <li><a href="contact.html" class="">Contact</a></li>
-                  </ul>
-                </div>
-            </div>
-        </div>
-    </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="about.html" class="scroll">About</a></li>
+                <li class="dropdown">
+                    <a href="concept.html" class="dropdown-btn">Concept</a>
+                    <div class="dropdown-content">
+                      <a href="architecture.html">Architecture</a>
+                      <a href="buildingscience.html">Building Science</a>
+                      <a href="electrical.html">Electrical Systems</a>
+                      <a href="interiordesign.html">Interior Design</a>
+                      <a href="mechanical.html">Mechanical</a>
+                    </div>
+                </li>
+                <li><a href="team.html" class="scroll">Team</a></li>
+                <li><a href="support.html" class="active">Support</a></li>
+                <li><a href="contact.html" class="scroll">Contact</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
 
     <!-- Header 
     ================================================== -->
@@ -123,6 +130,12 @@
             </div>
         </div>
     </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="js/bootstrap.js"></script>
 
 </body>
 </html>
