@@ -4789,7 +4789,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .nav>li>a {
     position: relative;
     display: block;
-    padding: 10px 20px
+    padding: 10px 12px;
 }
 
 .nav>li>a:focus,
@@ -5221,6 +5221,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
         text-align: center;
     }
     .navbar-nav>li {
+        padding: 0em 10px;
     }
     .navbar-nav>li>a {
         padding-top: 15px;
@@ -5398,8 +5399,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
-    color: #555;
-    background-color: #e7e7e7
+    border-top: 4px solid;
 }
 
 .navbar-default .navbar-nav>.disabled>a,

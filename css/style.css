@@ -196,10 +196,10 @@
     width: 100%;
     padding: 7em;
 }
-.stackable-home {
+.dense-home {
 	background-color: #ffb982;
 }
-.stackable-home:hover {
+.dense-home:hover {
 	background-color: #FFA65F;
 	transition: 0.3s ease-in-out;
 }
@@ -217,10 +217,10 @@
     background-color: #258F8B;
     transition: 0.3s ease-in-out;
 }
-.livable-home {
+.desirable-home {
 	background-color: #7491cf;
 }
-.livable-home:hover {
+.desirable-home:hover {
     background-color: #5071B7;
     transition: 0.3s ease-in-out;
 }
@@ -471,6 +471,28 @@
     float: left;
     padding: 1.5em;
 }
+.subpage-iconcontainer {
+    margin: 5em 0em; 
+    text-align: center;
+}
+.subpage-iconcontainer-box {
+    padding: 1em;
+}
+.subpage-iconcontainer p {
+    text-align: left;
+    font-size: 12px;
+    margin-left: 2em;
+}
+.subpage-iconcontainer h4 {
+    font-weight: 400;
+}
+.subpage-concepticons{
+    background-color: #65c6c2;
+    border-radius: 50%;
+    padding: 1em;
+    width: 40%;
+}
+
 /* Team Page */
 .team-dropdown {
     color: #fff;

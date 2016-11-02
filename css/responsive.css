@@ -102,8 +102,14 @@
 	.content-left {
 		width: 100%;
 	}
+	.content-left-invert {
+		width:100%;
+	}
 	.content-right {
 		width: 100%;
+	}
+	.content-right-invert {
+		width:100%;
 	}
 	.home-concept-block {
 	    margin-top: 8em;
