@@ -43,22 +43,28 @@
 
 /* Header */
 .block-header {
-    padding-top: 4.6em;
+    padding-top: 5em;
 }
 .header-container {
 	background-color: #65c6c2;
 }
 .header-left {
-	width: 45%;
-	float: left;
+    width: 45%;
+    height: 410px;
+    float: left;
 	background-color: #fff;
 }
-.header-banner-img {
-	width: 100%;
+.background-home {
+    background-image: url('../img/home-banner.jpg');
+    height: 410px;
+    background-size: cover;
+    background-position: center;
 }
 .header-right {
-	width: 55%;
-	float: left;
+    width: 55%;
+    height: 410px;
+    float: left;
+    background-color: #65c6c2;
 }
 .header-tagline {
     text-align: right;
@@ -70,6 +76,61 @@
 	font-size: 46px;
     letter-spacing: 2px;
     font-weight: 100;
+}
+/* Sub-Header Style + Backgrounds */
+.header-left-subpage {
+    width: 45%;
+    height: 250px;
+    float: left;
+    background-color: #fff;
+}
+.header-right-subpage {
+    width: 55%;
+    height: 200px;
+    float: left;
+    background-color: #65c6c2;
+}
+.background-about {
+    background-image: url('../img/about-header.jpg');
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+.background-concept {
+    background-image: url('../img/concept-header.jpg');
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+.background-architecture {
+    background-image: url('../img/concept/architecture/header.jpg');
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+.background-buildingscience {
+    background-image: url('../img/concept/buildingscience/header.jpg');
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+.background-electrical {
+    background-image: url('../img/concept/electrical/header.jpg');
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+.background-interiordesign {
+    background-image: url('../img/concept/interiordesign/header.jpg');
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+.background-mechanical {
+    background-image: url('../img/concept/mechanical/header.jpg');
+    height: 200px;
+    background-size: cover;
+    background-position: center;
 }
 
 /* Footer Section */
@@ -101,20 +162,35 @@
 	width: 45%;
 	float: left;
 }
+.content-left-invert {
+    width: 50%;
+    float: left;
+}
 .content-right {
 	width: 55%;
 	float: left;
 }
+.content-right-invert {
+    width: 40%;
+    float: left;
+}
+
 /* Home - Concept Section */
 .home-concept-block {
-    margin-top: 6em;
+    margin-top: 7em;
     margin-left: 7em;
     margin-right: 4em;
 }
 .concept-container h2 {
     font-weight: 400;
     letter-spacing: 0.5px;
+    margin-bottom: 16px;
 }
+.concept-container h3 {
+    font-weight: 400;
+    margin-top: 1em;
+}
+
 /* Home - Concept - Icons */
 .concept-icon {
     width: 100%;
@@ -159,7 +235,7 @@
 	background-color: #65c6c2;
 }
 .mission-left {
-	background-color: #949494;
+	background-color: #ababab;
     padding-top: 12em;
     padding-right: 2em;
     text-align: right;
@@ -184,7 +260,6 @@
     margin: 10em 3em;
 }
 .home-team-blockleft {
-    margin: 2em 4em;
 }
 .home-team-blockright {
     margin-left: 7em;
@@ -194,7 +269,7 @@
     margin-bottom: 2em;
 }
 .team-icon {
-    background-color: #949494;
+    background-color: #ababab;
     padding: 1.5em;
     width: 60%;
     text-align: center;
@@ -202,6 +277,10 @@
     margin-right: auto;
     display: block;
     border-radius: 50%;
+}
+.home-teamicon-desktop {
+    margin-top: 2em;
+    margin-left: 8em;
 }
 .home-teamicon-mobile {
     display: none;
@@ -280,7 +359,7 @@
     background-color: #65c6c2;
 }
 .subheader-left {
-    background-color: #949494;
+    background-color: #ababab;
     padding-top: 3em;
     padding-bottom: 1em;  
 }
@@ -306,16 +385,54 @@
     line-height: 24px;
     letter-spacing: 1px;
 }
-
+/* About Page */
+.eco-acronym {
+    text-align: center;
+    padding: 6em 3em;
+    margin-bottom: 1em;
+    background-color: #eceff1;
+}
+.eco-acronym .box {
+    padding: 0em 4em;
+}
+.eco-acronym-title {
+    color: #fff;
+    text-align: left;
+    margin-left: 4em;
+    background-color: #65c6c2;
+    padding: 1.5em 7em;
+}
+.eco-acronym-title h2 {
+    font-weight: 400;
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+.eco-acronym h1 {
+    color: #65c6c2;
+}
+.eco-acronym h3 {
+    font-weight: 400;
+}
+.eco-acronym p {
+    text-align: left;
+}
+.eco-acronym hr {
+    border-top: 1px solid #ababab;
+}
 /* Concept Pages */
 .concept-banner-img {
     width: 100%;
 }
 .header-title {
     text-align: right;
-    margin-top: 11em;
+    margin-top: 10em;
     margin-right: 8em;
     color: white;
+}
+.header-title h1 {
+    font-size: 66px;
+    letter-spacing: 2px;
+    font-weight: 400;
 }
 .header-title h2 {
     font-size: 46px;
@@ -324,11 +441,13 @@
 }
 .concept-content {
     width: 68%;
-    margin-top: 6em;
+    margin-top: 4em;
     margin-bottom: 4em;
     margin-left: 6em;
 }
 .concept-content h3 {
+    font-size: 26px;
+    font-weight: 400;
     margin-top: 36px;
     margin-bottom: 20px;
 }
@@ -475,6 +594,3 @@ div.panel-team.show {
     padding-left: 14em;
     padding-right: 4em;
 }
-
-
-
