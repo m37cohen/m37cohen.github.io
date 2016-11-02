@@ -33,6 +33,13 @@
 		font-size: 16px;
 	}
 
+@media (max-width: 1160px) {
+	.partners-left {
+    	padding-top: 6em;
+    	padding-bottom: 28em;		
+	}
+}
+
 @media (max-width: 970px) {
 	.subheader-content-block h4 {
 		font-size: 14px;
@@ -49,6 +56,34 @@
 
 
 @media (max-width: 767px) {
+	.navbar-header {
+		margin: 0em 1em;
+	}
+	.navbar-right {
+		width: 100%;
+	}
+	.nav>li {
+		display: block;
+	}
+	.navbar-nav>li>a {
+		margin-left: 2em;
+	    padding-top: 14px;
+    	padding-bottom: 14px;
+    	font-size: 15px;
+	}
+	.dropdown-content {
+		display: block;
+    	position: inherit;
+    	color: #fff;
+    	background-color: #65c6c2;
+	}
+	.dropdown-content a {
+		color: #fff;
+		padding: 14px 16px;
+	    margin-left: 4em;
+	    font-size: 14px;
+    	letter-spacing: 0.5px;
+	}
 	.header-left {
 		width: 100%;
 	}
@@ -56,8 +91,10 @@
 		width: 100%;
 	}
 	.header-tagline {
-		margin-top: 5em;
-		margin-bottom: 2em;
+	    margin-top: 4em;
+	    margin-bottom: 2em;
+	    margin-left: 2em;
+	    margin-right: 3em;
 	}
 	.header-tagline h2 {
     	font-size: 54px;
@@ -73,6 +110,9 @@
     	margin-bottom: 8em;
     	margin-right: 7em;
     	margin-left: 7em;
+	}
+	.concept-icon {
+	    padding: 4em;
 	}
 	.home-fouricon-desktop {
 		display: none;
@@ -106,6 +146,25 @@
 	.home-teamicon-mobile {
 		display: block;
 	}
+	.partners-left {
+    	padding-top: 3em;
+    	padding-bottom: 3em;
+	}
+	.partners-right {
+   		margin-top: 2em;
+    	padding-left: 1em;
+    	padding-right: 1em;
+	}
+	.partners-content-block img {
+    	padding: 5em;
+	}
+	.header-title {
+	    margin-top: 6em;
+	    margin-right: 7em;
+	}
+	.concept-content {
+    	width: 72%;
+    }
 	.faculty-leads-container h4 {
 		font-size: 24px;
 		font-weight: 400;
@@ -114,9 +173,68 @@
 		font-size: 16px;
 		font-weight: 400;
 	}
+	.footer-left {
+		text-align: center;
+		margin-top: 1em;
+	}
+	.footer-right {
+		text-align: center;
+		margin-top: 2em;
+	}
+@media (max-width: 640px) {
+	.header-tagline h2 {
+		font-size: 40px;
+	}
+	.home-concept-block {
+	    margin-right: 6em;
+    	margin-left: 6em;
+	}
+	.home-team-blockright {
+    	margin-left: 5em;
+    	margin-right: 5em;
+	}
+	.home-team-blockleft {
+    	margin: 2em 2em;
+	}
+	.concept-icon {
+	    padding: 3em;
+	}
+}
 
 @media (max-width: 540px) {
+	.header-title {
+	    margin-top: 6em;
+	    margin-right: 4em;
+	}
+	.concept-icon {
+	    padding: 2em;
+	}
+	.partners-content-block img {
+    	padding: 3em;
+	}
+	.home-concept-block {
+	    margin-right: 5em;
+    	margin-left: 5em;
+	}
+	.home-team-blockright {
+    	margin-left: 4em;
+    	margin-right: 4em;
+	}
+	.home-team-blockleft {
+    	margin: 2em 1em;
+	}
+	.concept-content {
+	    width: 80%;
+    	margin-top: 5em;
+    	margin-bottom: 4em;
+    	margin-left: auto;
+    	margin-right: auto;
+	}
 	div.panel-team.show {
 	    padding: 3em 1em;
+	}
+	.footer-logo {
+		width: 100px;
+    	margin: 0em 0.5em;
 	}
 }
