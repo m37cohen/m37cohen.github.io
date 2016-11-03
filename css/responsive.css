@@ -89,6 +89,7 @@
 	}
 	.header-right {
 		width: 100%;
+		height: 100%
 	}
 	.header-tagline {
 	    margin-top: 4em;
@@ -126,6 +127,10 @@
 	.home-fouricon-mobile {
 		display: block;
 	}
+	.mission-right {
+		margin-top: 4em;
+    	margin-bottom: 1em;
+	}
 	.block-team {
 		margin: 8em 1em;
 	}
@@ -151,6 +156,46 @@
 	}
 	.home-teamicon-mobile {
 		display: block;
+	}
+	.header-left-subpage {
+		width: 100%;
+	}
+	.header-right-subpage {
+		width: 100%;
+	}
+	.background-about {
+		height: 100%;
+	}
+	.background-concept {
+		height: 100%;
+	}
+	.background-architecture {
+		height: 100%;
+	}
+	.background-buildingscience {
+		height: 100%;
+	}
+	.background-electrical {
+		height: 100%;
+	}
+	.background-interiordesign {
+		height: 100%;
+	}
+	.background-mechanical {
+		height: 100%;
+	}
+	.subheader-content-block {
+	    margin-top: 5em;
+   		margin-bottom: 2em;
+    	margin-left: 2em;
+    	margin-right: 2em;
+	}
+	.subheader-content-block h4 {
+    	font-size: 18px;
+    	line-height: 22px;
+	}
+	.eco-acronym .box {
+	    padding: 1em 4em;
 	}
 	.partners-left {
     	padding-top: 3em;
@@ -187,6 +232,7 @@
 		text-align: center;
 		margin-top: 2em;
 	}
+
 @media (max-width: 640px) {
 	.header-tagline h2 {
 		font-size: 40px;
@@ -204,6 +250,12 @@
 	}
 	.concept-icon {
 	    padding: 3em;
+	}
+}
+
+@media (max-width: 590px) {
+	.team-icon {
+	    padding: 1.5em;
 	}
 }
 
@@ -228,6 +280,9 @@
 	}
 	.home-team-blockleft {
     	margin: 2em 1em;
+	}
+	.home-team-blockleft .row h3 {
+		font-size: 16px;
 	}
 	.concept-content {
 	    width: 80%;
